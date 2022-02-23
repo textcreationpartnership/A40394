@@ -1,0 +1,2183 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The epitome of divinity, poetically compos'd by way of dialogue, for the more easie, and pleasant learning and retaining of it in memory, or, A summary abstract of divine knowledge ... by Walter Franke ...</title>
+            <author>Franke, Walter, 17th cent.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1655</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 100 KB of XML-encoded text transcribed from 31 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A40394</idno>
+            <idno type="STC">Wing F2075</idno>
+            <idno type="STC">ESTC R834</idno>
+            <idno type="EEBO-CITATION">12181741</idno>
+            <idno type="OCLC">ocm 12181741</idno>
+            <idno type="VID">55681</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A40394)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 55681)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 890:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The epitome of divinity, poetically compos'd by way of dialogue, for the more easie, and pleasant learning and retaining of it in memory, or, A summary abstract of divine knowledge ... by Walter Franke ...</title>
+                  <author>Franke, Walter, 17th cent.</author>
+               </titleStmt>
+               <extent>[6], 50, [4] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J.G. for Francis Eaglesfield ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1655.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Cambridge University Library.</note>
+                  <note>Table of contents: p. [3]-[4] at end.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms.</term>
+               <term>Christian life --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-03</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2013-03</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:55681:1" rendition="simple:additions"/>
+            <pb facs="tcp:55681:1" rendition="simple:additions"/>
+            <p>THE EPITOME OF DIVINITY Poetically compos'd by way of Dialogue, for the more ea<g ref="char:EOLhyphen"/>ſie, and pleaſant learning and retaining of it in memory.</p>
+            <p>OR, A ſummary Abſtract of Divine Knowledge, as farre as is ne<g ref="char:EOLhyphen"/>ceſſary to SALVATION.</p>
+            <p>Intended for the benefit of all, and e<g ref="char:EOLhyphen"/>ſpecially for the Education of Youth, in the Knowledge and Feare of God.</p>
+            <p>By WALTER FRANKE, Miniſter of Gods Word.</p>
+            <q>
+               <bibl>John 5. 39.</bibl> Search the Scriptures, for in them ye have eternall life, and they are they which teſtifie of me.</q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. G.</hi> for <hi>Francis Eaglesfield,</hi> at the Marigold in St. <hi>Paul</hi>'s Church-yard, 1655.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:55681:2"/>
+            <pb facs="tcp:55681:2"/>
+            <head>To the Right VVorſhipfull, and Vertuous Lady, the Lady <hi>ANNE BASSET;</hi> and to the like Vertuous and Religious Gentlewom<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n, Mrs. <hi>Jane,</hi> and Mrs. <hi>Elizabeth Baſſet.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">H</seg>Onoured Ladies, I am not igno<g ref="char:EOLhyphen"/>rant that ingratitude is a ſinne of an high nature, and none more baſe and monſtrous; leſt therefore I ſhould ſeeme to you, guilty of that crime, which I have alwaies in my heart ſo much abhorred; I have now taken an opportunity to expreſſe my thankfulneſſe, for the manifold favours and be<g ref="char:EOLhyphen"/>nefits, which (in the depth of my afflictions) I have received from you. And no other way have I really to expreſſe it, but by the dedication of this little Book to your Ladiſhips acceptance: which if you ſhall condeſcend to patronize, (as your for<g ref="char:EOLhyphen"/>mer reſpects unto me, makes me confident you will) I ſhall rather increaſe, than any way leſsen
+<pb facs="tcp:55681:3"/> my engagements to you. The ſtructure of it be<g ref="char:EOLhyphen"/>ing ſo ſmall and low, may in the eyes of ſome ſeem contemptible, in reſpect of thoſe large and faire buildings of like nature, that by others of farre richer endowments have been erected: yet as you have often ſeen the whole world deſcribed in a little Map, or the lively portraicture of a tall Man or Woman in a Shillings compaſse, ſo is here (although I muſt confeſſe for the manner, but rudely contrived) yet for the matter, the whole body of Divinity contained in a ſmall Epitome; which being ſo little and weake, as it hath the more need of ſuccour, ſo it may with the more fa<g ref="char:EOLhyphen"/>cility from your Ladiſhips favour receive prote<g ref="char:EOLhyphen"/>ction. I know you will take the paines often to peruſe it (becauſe I am well aſſured, that each of you doe ſpend ſome houres every day in Religious duties) and peruſing it, I doubt not but you will apply it, to the edification and adorning of your owne Soules, to Gods glory, and your owne eter<g ref="char:EOLunhyphen"/>nall comfort: which that you may doe, and daily increaſe in the knowledge and grace of our Lord Jeſus Christ, ſhall be the prayer of</p>
+            <closer>
+               <signed>Your moſt obliged Servant in the Lord, <hi>Walter Franke.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:55681:3"/>
+            <head>To the Reader.</head>
+            <p>COurteous and well-diſpoſed Reader (if ſo thou art) it was the ſaying of him who (by the Spirit of God himſelfe) is ſaid to be a man after Gods owne heart, even <hi>David</hi> that great King, and ſweet ſinger of Iſrael; <hi>I have rejoyced in the way of thy teſtimonies above all riches,</hi> Pſal. 119. 14. And againe, Pſal. 19. 10. <hi>Th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y are more to be deſired than gold, yea, than much fine gold, ſweeter alſo than the Hony, or the Hony combe,</hi> with many ſuch exp<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eſſions of like nature in the ſame Pſalme. And will you know the reaſon of this his tranſcendent eſteeme of them? you may then thus collect it. As in the whole viſible World, there is nothing of more excellency than Man, and in Man, no<g ref="char:EOLhyphen"/>thing more excellent than the Soule, and in the Soule, nothing more excellent than the Underſtanding, and in the Underſtan<g ref="char:EOLhyphen"/>ding, nothing more excellent than Wiſdome; ſo moſt certain it is, that no Wiſdome that the Underſtanding is capable of, is ſo excellent as the Wiſdome from above, or the Knowledge of Divine things, which commonly we call Chriſtian Divinity; for whether we have reſpect to the Cauſes, the Effects, the Sub<g ref="char:EOLhyphen"/>jects, the Objects, the Adjuncts, or the ends thereof, it farre exceeds all the Arts, Sci<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nces, Knowledge or Wiſdome that the World affords. The reſult therefore of all is, that it behoves every man that aymes at eternall happineſſe, not onely moſt highly to eſt eme it, but alſo in ſome good meaſure to attaine unto it. And therefore gentle Reader, although many have written divers excellent and ample Volumes of the whole body of Divinity, yet (as a mite caſt into the treaſurie) I hope thou wilt accept of this my weake endeavour, for thy Soules good, as an inſtrument conducing unto that end. It is indeed, but as a little Infant in compariſon with the talleſt Man; yet thou maiſt diſcerne, it has its full ſhape, as well as hath the greateſt,
+<pb facs="tcp:55681:4"/> and Scripture enough to prove it to be Legitimate, and therefore as I doe commend it to thy charitable cenſure (hoping thou wilt not deſpiſe it for the ſmalleſt of its growth) ſo I doe no leſſe de<g ref="char:EOLhyphen"/>ſire, that thou maiſt fully improve it to thy owne advantage: and to this end, I could wiſh thou wouldſt make it thy <hi>vade mecum,</hi> or thy pocket companion; that ſo in the end, by com<g ref="char:EOLhyphen"/>mitting it to memory, it may (to thy comfort) become thy bo<g ref="char:EOLhyphen"/>ſome friend; or as an hid treaſurie in thy heart, that may helpe to maintaine thee in thy journey to the Heavenly <hi>Jeruſalem,</hi> that ſo although it be but little, yet (if by a faithfull application thou make much of it) at laſt thou maiſt finde it, to grow great in thy Soule, to thy everlaſting comfort: and therefore doe not onely caſt an eye upon it, and ſo lay it by, but take the paines to reade it through. It is but an houres labour, or a little more, deliberately to view it over, which being done, if then thou lik'ſt it, <hi>Quo animo legis obſerva, &amp; quo obſervas ſerva</hi> (as one ſaith well) with what affection thou readeſt it, obſerve it, and with the ſame affection thou obſerveſt it, remember it, and remember to practice it: and withall turne often to the Scriptures that (for the confirmation of thoſe truths) do ſtand in relation to each part of it; which being often revolved in thy minde, will much advantage thee in the knowledge of God, and of his revealed will. So God ſhall be glorified, thy Un<g ref="char:EOLhyphen"/>derſtanding enlightned, thy Faith ſtrengthned, and ſo conſe<g ref="char:EOLhyphen"/>quently thy Soule for ever comforted. And that ſo it may be, is, and ſhall be the prayer of him, who is thy Soules true friend,</p>
+            <closer>
+               <signed>Walter Franke.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="poetic_dialogue">
+            <pb n="1" facs="tcp:55681:4"/>
+            <head>The Epitome of DIVINITY Poetically compoſed, &amp;c.</head>
+            <div n="1" type="part">
+               <head>
+                  <hi>1.</hi> The condition of a True Chriſtian.</head>
+               <sp>
+                  <speaker>Queſt.</speaker>
+                  <l>WHat is a Chriſtian?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>One that in Chriſts name</l>
+                  <l>Baptiz'd <note n="a" place="bottom">
+                        <hi>Act. 8. 16. Act. 2. 38. Act.</hi> 11. 16.</note>, led by his grace <note n="b" place="bottom">
+                        <hi>Rom.</hi> 8. 14, 15, 16.</note>, doth through the ſame</l>
+                  <l>Believe on him <note n="c" place="bottom">
+                        <hi>Mar. 16. 16. Joh.</hi> 3. 16.</note>, continue in his Word <note n="d" place="bottom">
+                        <hi>Act.</hi> 2. 42.</note>,</l>
+                  <l>And to's example make his life accord <note n="e" place="bottom">
+                        <hi>Joh. 13. 15. Phil. 2. 5. 1 Pet</hi> 2. 21.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Anſwer me then, are they not Christians all,</l>
+                  <l>That are baptiz'd, and live within the pale</l>
+                  <l>Of Chriſt his Church?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>No, they alone indeed</l>
+                  <l>Are Chriſtians, who of the immortal ſeed,</l>
+                  <l>Are born again <note n="f" place="bottom">Joh. 3. 5. 1 Pet. 1. 23.</note>, as of the element,</l>
+                  <l>That uſed is, in Baptiſmes ſacrament,</l>
+                  <l>For he that is Chriſts ſcholler, (what the name</l>
+                  <l>Of Chriſtian doth ſignifie) the ſame <note n="g" place="bottom">Act. 22. 16. Eph. 5. 26.</note>
+                  </l>
+                  <pb n="2" facs="tcp:55681:5" rendition="simple:additions"/>
+                  <l>Muſt be Gods childe <note n="h" place="bottom">Gal. 3. 26, 27.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Is't needfull then to be</l>
+                  <l>New born?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>It is <note n="i" place="bottom">Joh 3. 3.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>The reaſon why lets ſee,</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The reaſon is, man is by ſin deform'd <note n="k" place="bottom">Epheſ. 2. 1, 2.</note>,</l>
+                  <l>The childe of wrath by nature <note n="l" place="bottom">Epheſ. 2. 3.</note>, and reform'd</l>
+                  <l>Muſt therefore be <note n="m" place="bottom">Epheſ. 2. 5.</note>, and made the childe of grace <note n="n" place="bottom">Epheſ. 2. 8</note>,</l>
+                  <l>If he in heaven deſires a biding place <note n="o" place="bottom">Matth. 5. 3. Gal. 6. 16 Matth. 25. 34</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Mankinde in <hi>Adam</hi> was created good?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>True <note n="p" place="bottom">Gen. 1. 26, 31.</note>, and might be ſo ſtill had <hi>Adam</hi> ſtood <note n="q" place="bottom">Wiſd. 2. 23. Eccleſ. 7. 31</note>.</l>
+               </sp>
+            </div>
+            <div n="2" type="part">
+               <head>2. Concerning the Fall of man<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</head>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How then became it ſinfull?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Through the fall</l>
+                  <l>Of <hi>Adam</hi> 
+                     <note n="r" place="bottom">Gen. 3. 6.</note>, by whom ſin paſs'd over all <note n="ſ" place="bottom">Rom. 5. 12.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>
+                     <hi>Adam</hi> as the head of whole mankind <note n="t" place="bottom">Gen. 3. 20.</note>,</l>
+                  <l>What ſo ere gifts of body, or of mind,</l>
+                  <l>He did in his creation from the grace</l>
+                  <l>Of God receive <note n="u" place="bottom">Jam 1. 17.</note>, the ſame for his whole race</l>
+                  <l>He had, as for himſelf <note n="w" place="bottom">Eccleſ. 7. 31.</note>, and therefore when</l>
+                  <l>He loſt them by his fall, all other men</l>
+                  <l>Loſt them in him; nor onely ſo, but he</l>
+                  <l>Being defil'd by this tranſgreſſion, we</l>
+                  <l>That in his loynes were hid, did then begin,</l>
+                  <l>Though yet we had not being to have ſin:</l>
+                  <pb n="3" facs="tcp:55681:5"/>
+                  <l>For being of the propagated maſs</l>
+                  <l>Begotten, all which then in <hi>Adam</hi> was,</l>
+                  <l>And was in him by his firſt fault defil'd,</l>
+                  <l>It follows, that ev'ry ſucceeding childe</l>
+                  <l>Of his, muſt ſinfull be <note n="x" place="bottom">Rom. 5. 12, 14.</note>, for who can bring</l>
+                  <l>A clean ſtream from a foul and pudled ſpring <note n="y" place="bottom">Job 14. 4.</note>?</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Are all men ſinners then?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Yes, there is none</l>
+                  <l>Excepted <note n="z" place="bottom">Prov. 20. 9. 1 Joh. 1. 8.</note>, but our Saviour CHRIST alone <note n="a" place="bottom">1 Pet. 2. 22. 1 Joh. 3. 5.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Sinners deſerve death, and is death to all</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>s due, for having ſin originall?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Onely for this we doe deſerve to die,</l>
+                  <l>Though we had elſe done none iniquity <note n="b" place="bottom">Rom. 5. 12. &amp; 6. 23.</note>:</l>
+                  <l>But we doe many waies offend beſides <note n="c" place="bottom">Jam. 3. 6.</note>,</l>
+                  <l>Becauſe that Mother ſin that ſtill abides</l>
+                  <l>In us <note n="d" place="bottom">Pſ. 51. 6. Rom. 7. 8.</note>, depraving both the minde, and will <note n="e" place="bottom">Rom. 7. 13, 14, 15.</note>;</l>
+                  <l>Breeds alwaies, and brings forth ſome actuall ill <note n="f" place="bottom">Jam. 1. 5.</note>:</l>
+                  <l>And whatſoe're we doe, or think, or ſay,</l>
+                  <l>Is ſin <note n="g" place="bottom">Rom. 3. 9, 10. Job 25. 4.</note>: and God therefore condemn us may <note n="h" place="bottom">Pſal. 51. 4. &amp; 143. 2.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How know we this, what is the rule whereby,</l>
+                  <l>We doe our actions, to be ſinfull try?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The Morall Law <note n="i" place="bottom">Rom. 7. 7.</note>, divided into ten</l>
+                  <l>Eternall precepts, Gods own Word, which when</l>
+                  <l>
+                     <hi>Sinai</hi> was all on ſmoke, the ayre with thunder</l>
+                  <pb n="4" facs="tcp:55681:6"/>
+                  <l>Ratled, and lightning ſhone, that men did wonder,</l>
+                  <l>And mountain quak'd (the trumpet being ſounded)</l>
+                  <l>Was by JEHOVAH, in ſuch ſort propounded <note n="k" place="bottom">Exod. cap. 20.</note>.</l>
+               </sp>
+            </div>
+            <div n="3" type="part">
+               <head>3. The ten Commandements.</head>
+               <sp>
+                  <lg>
+                     <l>I am the Lord that made, and doe command,</l>
+                     <l>The heav'n, the fire, the aire, the ſea, the land,</l>
+                     <l>With all things in them <note n="l" place="bottom">
+                           <hi>Gen.</hi> cap. 1. <hi>Pſal.</hi> 89. 11</note>, yea thy God I am;</l>
+                     <l>Thy Saviour that from the land of <hi>Ham,</hi>
+                     </l>
+                     <l>And houſe of bondage, did thee <hi>Iſr'el</hi> bring <note n="m" place="bottom">See <hi>Exod.</hi> the 7, 8, 9, 10, 11 <gap reason="illegible" resp="#MURP" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>2. chapters &amp; <hi>Pſal.</hi> 106. 22.</note>,</l>
+                     <l>By a ſtrong Arm, and Power aſtoniſhing <note n="n" place="bottom">Pſal. 136. <gap reason="illegible" resp="#MURP" extent="2 letters">
+                              <desc>••</desc>
+                           </gap>.</note>.</l>
+                  </lg>
+                  <lg n="1">
+                     <head>I.</head>
+                     <l>HAve thou no other Gods but me alone,</l>
+                     <l>Whoſe might, and mercy, to thee have been ſhewn <note n="o" place="bottom">Mat 4. 10.</note>.</l>
+                  </lg>
+                  <lg n="2">
+                     <head>II.</head>
+                     <l>Make to thy ſelf no image, carve, nor paint,</l>
+                     <l>In heaven above, of Angel, or of Saint,</l>
+                     <l>In ſea of fiſh, in earth of any creature,</l>
+                     <l>For a religious uſe, the fanſied feature:</l>
+                     <l>Neither ſhalt thou ſerve it, nor it adore,</l>
+                     <l>Though but with bodies bending, and no more <note n="p" place="bottom">
+                           <hi>Deut.</hi> 4. 15, to the 20. <hi>Act. 17. 29 Levit. 26. 1. Pſal.</hi> 97. 7.</note>.</l>
+                     <pb n="5" facs="tcp:55681:6"/>
+                     <l>For I JEHOVAH am a jealous God <note n="q" place="bottom">Exod. 34. 14. Nahum. 1. 2. Deut. 32. 21.</note>,</l>
+                     <l>That doe ſeverely viſit with my rod,</l>
+                     <l>The fathers ſins, on their poſterity,</l>
+                     <l>Extending to the third, and fourth degree</l>
+                     <l>Of their ſucceeding iſſue, that me hate,</l>
+                     <l>And for a god, an idol conſecrate <note n="r" place="bottom">Lam. 5. 7.</note>:</l>
+                     <l>But mercy ſhew to them, and thouſands more</l>
+                     <l>Of them, that love me, and obſerve my lore <note n="ſ" place="bottom">Pſal. 128. 3, 6. Deut. 28. 4.</note>.</l>
+                  </lg>
+                  <lg n="3">
+                     <head>III.</head>
+                     <l>My ſacred name, or attributes forbear</l>
+                     <l>To uſe irreverently, and doe not ſwear</l>
+                     <l>Falſly, or raſhly by me <note n="t" place="bottom">Lev. 19. 12. Mat. 5. 33, 34.</note>, for excus'd</l>
+                     <l>Ile hold him not, by whom my names abus'd <note n="u" place="bottom">
+                           <hi>Deut.</hi> 28. 58. to the end. <hi>Jen.</hi> 23. 10.</note>.</l>
+                  </lg>
+                  <lg n="4">
+                     <head>IV.</head>
+                     <l>By pious works, and a religious reſt,</l>
+                     <l>Remember that thou keep my weekly feaſt,</l>
+                     <l>The bleſſed Sabbath: Six daies ſhalt thou doe,</l>
+                     <l>What work ſoever thou art call'd unto:</l>
+                     <l>But on the ſeventh, which is the Sabbath day,</l>
+                     <l>Of God thy Lord, no work nor labour may</l>
+                     <l>Be by thy ſelf done, or allow'd to be</l>
+                     <l>Done, by thy ſalve, beaſt, gueſt, that is with thee <note n="w" place="bottom">
+                           <hi>Exod. 23. 12. Ezek. 20. 12. Iſa. 58. 12, 13. Neh.</hi> 13. 15. to ver. 22.</note>:</l>
+                     <pb n="6" facs="tcp:55681:7"/>
+                     <l>For in ſix daies, the Lord the heavens did frame,</l>
+                     <l>The earth, the ſea, with what is in the ſame;</l>
+                     <l>But on the ſeventh day, he was pleaſ'd to reſt;</l>
+                     <l>And therefore hath it ſanctifi'd and bleſt <note n="x" place="bottom">Gen. 2. 1, 2.</note>.</l>
+                  </lg>
+                  <lg n="5">
+                     <head>V.</head>
+                     <l>Honour thy parents, and obſerve with love</l>
+                     <l>And reverence due thoſe that are thee above <note n="y" place="bottom">Eph. 6. 1, 2. Exod. 21. 17. Col. 3. 20. Matth 19. 19. Matth. 15. 4.</note>
+                     </l>
+                     <l>In gifts <note n="z" place="bottom">1 Tim. 5. 17.</note>, place <note n="a" place="bottom">Col. 3. 22.</note>, office <note n="b" place="bottom">Rom. 13. 1. Eccleſ. 8. 2. 1 Pet. 2. 13. Prov. 24. 21.</note>, or whoſe love, and care,</l>
+                     <l>Towards thee <note n="c" place="bottom">Gen. 45. 8. Job 31. 18.</note>, or whoſe age, make that they are</l>
+                     <l>Fathers, or mothers, to thee, that thou live</l>
+                     <l>Long, in the land, which to thee God ſhall give <note n="d" place="bottom">1 Tim. 5. 1, 2. Levit. 19. 32.</note>.</l>
+                  </lg>
+                  <lg n="6">
+                     <head>VI.</head>
+                     <l>Mans blood in cruelty thou ſhalt not ſpill <note n="e" place="bottom">Gen. 9. 5, 6.</note>,</l>
+                     <l>Nor ſhalt in malice ſeek <note n="f" place="bottom">Mat. 5. 22. Eph. 4. 31. 1 Cor. 14: 21. 1 Pet. 2. 1.</note> or wiſh his ill <note n="g" place="bottom">1 Pet. 3. 9.</note>.</l>
+                  </lg>
+                  <lg n="7">
+                     <head>VII.</head>
+                     <l>Doe not by carnall acts <note n="h" place="bottom">Eph. 5. 3. Heb. 13. 4.</note>, or luſts moſt vile,</l>
+                     <l>Thy own or others purity defile <note n="i" place="bottom">2 Sam. 13. 4. Lev. 18. 6, 23. Rom. 1. 24, 26, 27. Mat. 5. 28.</note>.</l>
+                  </lg>
+                  <pb n="7" facs="tcp:55681:7"/>
+                  <lg n="8">
+                     <head>VIII.</head>
+                     <l>Thy neighbours goods, by any unjuſt way,</l>
+                     <l>Thou ſhalt not to thy proper uſe convey <note n="k" place="bottom">Exod. 22. 1, 2, 3. Lev. 6. 2, 3.</note>.</l>
+                  </lg>
+                  <lg n="9">
+                     <head>IX.</head>
+                     <l>By an abuſive or a lying tongue,</l>
+                     <l>Thy neighbour, or his fame, thou ſhalt not wrong <note n="l" place="bottom">Pſ. 15. 3. Prov. 6. 19. &amp; 20. 19.</note>.</l>
+                  </lg>
+                  <lg n="10">
+                     <head>X.</head>
+                     <l>Thy neighbours houſe, his wife, his ſervant, maid,</l>
+                     <l>His beaſt, or other thing that may be ſaid</l>
+                     <l>His, muſt thou not luſt after, neither muſt</l>
+                     <l>Thou yeeld to, or be mov'd by any luſt <note n="m" place="bottom">
+                           <hi>Luke 12. 15. 1 Tim.</hi> 6. 6. to the 11. <hi>to ſee the hainouſneſs and puniſhment of this ſin,</hi> read 1 <hi>Kin.</hi> ch. 21.</note>.</l>
+                     <l>This is Gods law, which who doth not fulfill</l>
+                     <l>In every jot and tittle, he doth ill <note n="n" place="bottom">
+                           <hi>Deut.</hi> 5. 32. &amp; 28. 15. to the end.</note>.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is the ſumme hereof?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>This, thou ſhalt love</l>
+                  <l>The Lord thy God, who dwells above, above</l>
+                  <l>All things; with all thy powers <note n="o" place="bottom">Mat. 22. 37.</note>, let neighbour be,</l>
+                  <l>As thou art to thy ſelf, ſo dear to thee <note n="p" place="bottom">Mat. 22. 39, 40.</note>
+                  </l>
+               </sp>
+            </div>
+            <div n="4" type="part">
+               <pb n="8" facs="tcp:55681:8"/>
+               <head>4. No man is able to keep the Law.</head>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Is any man of power all this to doe,</l>
+                  <l>Which God in this his Law commands unto?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Not any man <note n="q" place="bottom">Eccleſ. 7. 22.</note>, not the moſt ſanctifi'd <note n="r" place="bottom">2 Cor. 3. 5.</note>,</l>
+                  <l>As doth appear, being by this rule try'd <note n="ſ" place="bottom">Gal. 3. 10</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Why then doth God command what cannot be</l>
+                  <l>Perform'd by any man?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Surely when he</l>
+                  <l>Before the fall, did in mans minde engrave</l>
+                  <l>The Law <note n="t" place="bottom">Rom. 2. 15.</note>, ſtrength to perform the ſame he gave <note n="u" place="bottom">Eccleſ. 7. 31.</note>;</l>
+                  <l>Which ſith by his own fault he loſt <note n="w" place="bottom">Gen. 3. 6</note>, God ſtill</l>
+                  <l>Juſtly requires obedience to his will <note n="x" place="bottom">Mie. 6. 9.</note>.</l>
+                  <l>Beſides though men not call'd, by no means can</l>
+                  <l>In any point perform the Law <note n="y" place="bottom">Heb. 11. 6. Joh. 1. 5.</note>, that man</l>
+                  <l>Who is new born, can it ſo farre obſerve,</l>
+                  <l>That though his works from that perfection ſwerve,</l>
+                  <l>Which God in's righteous juſtice doth expect <note n="z" place="bottom">1 Ioh 3. 9. Luke 1. 6. Pſal. 119. 3.</note>,</l>
+                  <l>Are yet ſo good, that he doth them reſpect <note n="a" place="bottom">2 Cor. 8. 12</note>
+                  </l>
+                  <l>In mercy for Chriſts ſake, who hath ſuppli'd,</l>
+                  <l>What he doth want by having ſatisfi'd</l>
+                  <l>On his behalf <note n="b" place="bottom">1 Cor. 1. 30.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>But ſith in meaſure due</l>
+                  <l>It cannot be perform'd, no not ſay you,</l>
+                  <l>By the new-born themſelves; ſpeak what may be</l>
+                  <l>The uſe thereof?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Its offices are three:</l>
+                  <pb n="9" facs="tcp:55681:8"/>
+                  <l>The one <hi>ſpirituall,</hi> 'cauſe it doth pertain</l>
+                  <l>To thoſe, who by Gods Spirit are born again;</l>
+                  <l>Whom it doth teach, to worſhip God aright,</l>
+                  <l>And walk preciſely as in his pure ſight <note n="c" place="bottom">
+                        <hi>Pſalm</hi> 116. 1, to the end.</note>.</l>
+                  <l>A ſecond <hi>outward,</hi> ſerving to repreſs</l>
+                  <l>The fear of puniſhment for wickedneſs,</l>
+                  <l>Ev'n of ungodly men, ſo farre that they</l>
+                  <l>Dare not break out, into what ſins they may <note n="d" place="bottom">Rom. 2. 14, 15. Mat. 21. 26.</note>.</l>
+                  <l>A third more <hi>ſecret,</hi> when it ſore affecteth</l>
+                  <l>The conſcience for ſin, which it detecteth,</l>
+                  <l>Reproves, condemns, and threatens puniſhment</l>
+                  <l>Eternall, to be therefore conſequent <note n="e" place="bottom">
+                        <hi>Rom.</hi> 7. 7, to the 24. <hi>Gen. 4. 7. 13, 14. Mat.</hi> 27. 4.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>After the Law hath thus ſhew'd us our ſin,</l>
+                  <l>And miſerable eſtate that we are in;</l>
+                  <l>Doth it not alſo ſhew the remedy,</l>
+                  <l>Vhereby to cure our ſinfull malady</l>
+                  <l>And to prevent damnation?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>No <note n="f" place="bottom">Rom. 7. 11. 2 Cor. 3. 5.</note>, but this,</l>
+                  <l>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>erformed onely by the Goſpel is <note n="g" place="bottom">1 <hi>Cor.</hi> 15. 1 to the 5. <hi>Eph. 1. 7. 1 Tim. 4. 9, 10. Tit.</hi> 2.</note>.</l>
+               </sp>
+            </div>
+            <div n="5" type="part">
+               <pb n="10" facs="tcp:55681:9"/>
+               <head>5. The knowledge of the Law leads us to imbrace the Gospel.</head>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is the Gospel?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>It's Gods heavenly Word <note n="h" place="bottom">Luke 2. 10, 11.</note>,</l>
+                  <l>Promiſ'd to th' fathers, by Gods Son our Lord <note n="i" place="bottom">Heb. 1. 1.</note>,</l>
+                  <l>And his Apoſtles <note n="k" place="bottom">Mat. 4. 18, 19. Heb. 1. 2.</note>, men inſpired by</l>
+                  <l>His bleſſed Spirit, declared perfectly <note n="l" place="bottom">Act. 2. 3, 4. 2 Pet. 1. 21.</note>,</l>
+                  <l>Bringing the joyfull news that by the Son</l>
+                  <l>Of God procured is redemption</l>
+                  <l>For all mankinde <note n="m" place="bottom">2 Tim. 3. 16. 1 Tim. 2. 6. 1 Pet. 1. 18, 19, 20.</note> (ſo that they will amend <note n="n" place="bottom">Mat. 3. 2.</note>,</l>
+                  <l>And will believe <note n="o" place="bottom">1 Pet. 1. 21.</note>) life, bliſs without an end <note n="p" place="bottom">Tit. 1. 2. Joh. 10. 28.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is the Gospels ſubject?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Chriſt <note n="q" place="bottom">1 Cor. 3. 11. Mat. 13. 44, &amp; 46. 1 Tim. 3. 16.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Is he</l>
+                  <l>Ordain'd by God, the remedy to be,</l>
+                  <l>For ſinfull man?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>He is <note n="r" place="bottom">1 Theſſ. 5. 9.</note>; and there is none</l>
+                  <l>That hath ſalvation wrought but he alone <note n="ſ" place="bottom">Acts 4. 11, 12.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>To know Chriſt then is't neceſſary?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Yes:</l>
+                  <l>For to know God, and Chriſt, is happineſs <note n="t" place="bottom">Joh. 17. 3.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What's God?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>One eſſence pure <note n="u" place="bottom">Deut. 6. 4. Exod. 3. 14.</note>, in perſons three</l>
+                  <l>Father, Son, holy Ghoſt <note n="w" place="bottom">1 John 5. 17. Mat. 3. 16, 17.</note>, who though they be</l>
+                  <pb n="11" facs="tcp:55681:9"/>
+                  <l>Diſtinct in properties, (as doe imply</l>
+                  <l>Their ſev'rall names <note n="x" place="bottom">Eph 4. 6. Joh. 1. 14. Rom. 8. 16.</note>) agree in unity</l>
+                  <l>Of nature <note n="y" place="bottom">1 Joh. 5. 7.</note>, being one <note n="z" place="bottom">1 Cor 8. 4.</note>, great <note n="a" place="bottom">Pſal. 139. 7. Iſa. 66. 1.</note>, infinite <note n="b" place="bottom">Pſal. 90. 2.</note>,</l>
+                  <l>In wiſdome <note n="c" place="bottom">Rom. 11. 33.</note>, power <note n="d" place="bottom">Phil. 3. 21.</note>, goodneſs <note n="e" place="bottom">Exod. 34. 6.</note>, bleſſed Sprite <note n="f" place="bottom">1 Tim 1. 11.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Sufficeth it for man God thus to know,</l>
+                  <l>As he is in himſelf conſid'red?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>No <note n="g" place="bottom">Joh. 4. 24.</note>:</l>
+                  <l>But it is chiefly needfull to ſalvation,</l>
+                  <l>That we doe know God, as he hath relation</l>
+                  <l>Towards us <note n="h" place="bottom">1 Cor. 8. 2, 3.</note>, which is, when we underſtand</l>
+                  <l>Aright in God, his perfect juſtice, and</l>
+                  <l>His perfect mercy <note n="i" place="bottom">1 Cor. 8. 5, 6. 1 Joh. 2. 5. Pſal. 85. 10.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Speak then, what are they?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Not qualities, for that's moſt falſe to ſay;</l>
+                  <l>But God his juſtice, is his nature <note n="k" place="bottom">Pſal. 48. 10. Deut. 32. 4.</note>, as</l>
+                  <l>It hates all evill, nor lets any paſs</l>
+                  <l>Unpuniſht <note n="l" place="bottom">Exod. 20. 5.</note>: mercy is the ſame, as it</l>
+                  <l>Gives freely to us, every benefit</l>
+                  <l>We doe enjoy <note n="m" place="bottom">Pſal. 36. 5, 7. Tit. 3. 5. Exod. 20. 5.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>But when eſpecially</l>
+                  <l>Appear'd this mercy?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>When God graciouſly <note n="n" place="bottom">Eph. 2. 4, 5, 6.</note>
+                  </l>
+                  <l>Gave us his Chriſt <note n="o" place="bottom">Joh. 3. 16.</note>, who is the ſumme, and chief</l>
+                  <l>Of all Gods benefits, the ſouls relief <note n="p" place="bottom">1 Joh. 3. 7.</note>:</l>
+                  <pb n="12" facs="tcp:55681:10"/>
+                  <l>And whom it is moſt needfull that we know,</l>
+                  <l>The reaſon why, I did but lately ſhow.</l>
+               </sp>
+            </div>
+            <div n="6" type="part">
+               <head>6. What muſt be known concerning Chriſt.</head>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>What muſt be known concerning Chriſt?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>What doe</l>
+                  <l>Concern his perſon, and his office too <note n="q" place="bottom">
+                        <hi>Joh</hi> 1. 1, to the 15. <hi>Gal. 4 4. Phil.</hi> 2. 6, 7.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>Touching his perſon, what is he?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Gods Son <note n="r" place="bottom">Mat. 3. 17. Luke 1. 35. Joh. 1. 14, 18.</note>
+                  </l>
+                  <l>Who by a ſacred, ſecret union</l>
+                  <l>Hath joyn'd our nature to his deity,</l>
+                  <l>In one admired, bleſt, ſubſiſtency <note n="ſ" place="bottom">Col. 2. 9. 2. Pet. 1. 4. Ioh 17. 21. Heb. 2. 11.</note>:</l>
+                  <l>And ſo is God, and man, and yet but one</l>
+                  <l>Perſon, one Chriſt, and but one God alone <note n="t" place="bottom">1 Cor. 8 6. 1 Tim. 2. 5.</note>
+                     <g ref="char:punc">▪</g>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>But was it needfull that who mankinde ſhould</l>
+                  <l>Redeem be God Almighty, neither could</l>
+                  <l>Any nor all the creatures this effect?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Undoubtedly they could not in reſpect</l>
+                  <l>Both of the evils great which damnifi'd</l>
+                  <l>Us, and the great good things which none beſide</l>
+                  <l>God could reſtore unto us <note n="u" place="bottom">1 Pet. 1. 18 19, 20.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Them great evils,</l>
+                  <l>What are they tell?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Sins heavy weight <note n="w" place="bottom">1 Cor. 15 56.</note>, the devils</l>
+                  <l>Baſe tyrannie <note n="x" place="bottom">2 Tim. 2. 26.</note>, death's conqueſt, and the ſenſe</l>
+                  <l>Of Gods juſt wrath conceiv'd 'gainſt mans offence <note n="z" place="bottom">Col. 3. 6. Eph. 2. 3.</note>;</l>
+                  <pb n="13" facs="tcp:55681:10"/>
+                  <l>Which for to take away <note n="a" place="bottom">Ioh. 1 29. 1 Ioh. 2 1, 2.</note>, ſubdue, confound,</l>
+                  <l>And pacifie, no creature could be found,</l>
+                  <l>But God muſt doe it <note n="b" place="bottom">Heb. 2. 14. 1 Ioh. 3. 8.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>Say what good things are</l>
+                  <l>Reſtor'd unto us?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>What ſin once did marre,</l>
+                  <l>And did in our firſt parents quite deface <note n="c" place="bottom">
+                        <hi>Rom.</hi> 5. 15. to the end.</note>,</l>
+                  <l>Wiſdome, true holineſſe, and every grace <note n="d" place="bottom">1 Cor. 1. 30.</note>,</l>
+                  <l>Whereby Gods image is in us reform'd <note n="e" place="bottom">Epheſ. 4. 23, 24. 2 Cor. 15. 49.</note>;</l>
+                  <l>Now this could not be, but by God perform'd <note n="f" place="bottom">2 Epheſ. 4, to the 11.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>God is omnipotent, and all things can,</l>
+                  <l>Was't needfull then, that God ſhould become man</l>
+                  <l>To ſave mankinde?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Though in his power he</l>
+                  <l>Could ſave by other means, it did agree</l>
+                  <l>Beſt with his juſtice, us ſo to redeem <note n="g" place="bottom">Heb. 2. 10, 14.</note>,</l>
+                  <l>Becauſe man having ſinned, it doth ſeem</l>
+                  <l>Moſt juſt, that man ſhould make amends <note n="h" place="bottom">Rom 8. 3, 4.</note>, and by</l>
+                  <l>That nature that offended ſatisfie</l>
+                  <l>Almighty God <note n="i" place="bottom">Gal. 3. 13.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>But anſwer, whether might</l>
+                  <l>Not God the Father, nor the bleſſed Sprite</l>
+                  <l>Act the Redeemers part, incarnate be,</l>
+                  <l>As God the Son?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>They might, but Gods decree</l>
+                  <l>Ordain'd before that mankindes reparation,</l>
+                  <l>Should be by him <note n="k" place="bottom">Iſa. 9. 6, 7. Gal. 4. 4.</note>, by whom was its creation <note n="l" place="bottom">Ioh. 1. 3.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Of Chriſt himſelf this to have ſaid ſufficeth:</l>
+                  <pb n="12" facs="tcp:55681:11"/>
+                  <l>What is his office?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>That he exerciſeth,</l>
+                  <l>According to both natures, as he is Chriſt <note n="m" place="bottom">Rom. 9. 5. 1 Tim. 3. 16. Rom. 1. 2, 3.</note>,</l>
+                  <l>Or our anointed King <note n="n" place="bottom">Rev. 19. 16.</note>, Prophet <note n="o" place="bottom">Deut. 18. 15.</note>, and Prieſt <note n="p" place="bottom">Pſal. 110. 4.</note>.</l>
+               </sp>
+            </div>
+            <div n="7" type="part">
+               <head>7. Chriſts threefold Office.</head>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is his Regall office?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>That whereby</l>
+                  <l>He ruleth all things, but eſpecially,</l>
+                  <l>His Church <note n="q" place="bottom">Jer. 23. 5. Luke 1. 33.</note>, which he defends <note n="r" place="bottom">Jer. 23. 6.</note>, endows with graces</l>
+                  <l>Here <note n="ſ" place="bottom">Eph. 4. 8.</note>; and doth glorifie in heavenly places <note n="t" place="bottom">Joh. 10. 28.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the parts hereof?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The parts I name,</l>
+                  <l>A calling by the Word <note n="u" place="bottom">Hag. 2. 7. Heb. 4. 12.</note>, and by the ſame</l>
+                  <l>A judging, that is either generall,</l>
+                  <l>When he doth all men generally call <note n="w" place="bottom">Mat. 22. 9, 10. 1 Cor. 1. 9.</note>;</l>
+                  <l>And doth invite <note n="x" place="bottom">2 Theſſ. 11. 12.</note> to faith, by his Word's preach<g ref="char:EOLhyphen"/>ing <note n="y" place="bottom">Rom. 10. 17. 1 Theſſ. 2. 13.</note>,</l>
+                  <l>Or ſpecially, when unto the outward teaching <note n="z" place="bottom">2 Tim. 1. 9.</note>,</l>
+                  <l>He joynes his ſpirits working, and inflecteth</l>
+                  <l>The minde, that it believeth, and affecteth</l>
+                  <l>Gods Word <note n="a" place="bottom">1 Joh. 5. 6, 10. Rom. 8. 11, to 16.</note>; And this doth not to all belong,</l>
+                  <l>As doth the outward calling of the tongue <note n="b" place="bottom">
+                        <hi>Mat.</hi> 22. 3, &amp; 8 verſes, &amp; 11. to the 15.</note>
+                  </l>
+                  <pb n="15" facs="tcp:55681:11"/>
+                  <l>But to Gods choſen onely, theſe alone</l>
+                  <l>Are called effectually, not every one <note n="c" place="bottom">Rom. 8. 30. Rom. 9. 11, 12, 13.</note>.</l>
+                  <l>The other part of Chriſt his Office royall,</l>
+                  <l>Is that whereby, he doth on his diſloyall</l>
+                  <l>Subjects, the wicked, puniſhments inflict</l>
+                  <l>In this life <note n="d" place="bottom">Pſal. 2, 9. &amp; 110. 1, 2.</note>, and when after by his ſtrict</l>
+                  <l>Juſtice, he hath before his Judgment-ſeat,</l>
+                  <l>Summon'd, arraign'd, condemn'd them in his great</l>
+                  <l>And dreadfull indignation; he them ſendeth</l>
+                  <l>Thence into Hell, where torment never endeth <note n="e" place="bottom">Mat. 22. 11, 12, 13. &amp; 8. 12. &amp; 25. 41.</note>.</l>
+                  <l>But thoſe who are his ſervants, his elect,</l>
+                  <l>He doth againſt his enemies protect <note n="f" place="bottom">Joh. 16. 33. Rom. 16. 20.</note>,</l>
+                  <l>Acquit them of their ſins, in the laſt day <note n="g" place="bottom">
+                        <hi>Rom.</hi> 8. 32. to the end.</note>,</l>
+                  <l>And them reward ev'n with an heavenly pay <note n="h" place="bottom">Mat. 25. 34.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How was a Prophets Office, by our Lord</l>
+                  <l>Chriſt executed?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>When he by his Word <note n="i" place="bottom">Col. 3. 16.</note>,</l>
+                  <l>His Spirit <note n="k" place="bottom">Luke 24. 45.</note>, Sacraments <note n="l" place="bottom">Mat. 26. 26, 27, 28. &amp; 28. 20.</note>, himſelf <note n="m" place="bottom">Heb. 1. <gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Mat. 28 20.</note>, and his</l>
+                  <l>Ordained Miniſters <note n="n" place="bottom">Act. 5. 20, 21. Mat. 2<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 
+                        <gap reason="illegible" resp="#MURP" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap>. 20.</note>, made known what is</l>
+                  <l>The Goſpel, or his heavenly Fathers minde,</l>
+                  <l>Concerning the redemption of mankinde <note n="o" place="bottom">Rom. 1. 1, 2, 3, 4.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is his Prieſtly Office?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>That whereby,</l>
+                  <pb n="16" facs="tcp:55681:12"/>
+                  <l>He did Gods wrath, againſt us pacifie <note n="p" place="bottom">1 Theſſ. 1. 10. Heb. 5. 8, 9, 10.</note>;</l>
+                  <l>And put himſelf, a gracious Mediatour,</l>
+                  <l>'Twixt ſinfull man, and God his juſt Creatour <note n="q" place="bottom">1 Tim. 2. 5. Heb. 7. 24, 25. 1 Joh. 2. 1, 2.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the parts hereof?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Two: ſatisfaction,</l>
+                  <l>When he the Law fulfill'd in holy action <note n="r" place="bottom">Mat. 3. 15. &amp; 5. 17.</note>,</l>
+                  <l>And gave his life as a redeeming price</l>
+                  <l>For us <note n="ſ" place="bottom">Mat. 20. 28. 1 Tim. 2. 6.</note>, and made himſelf a ſacrifice</l>
+                  <l>For ſin <note n="t" place="bottom">
+                        <hi>Heb.</hi> 9. 11. to the end.</note> upon the Croſs <note n="u" place="bottom">Mat. 27. 24, 26. 1 Pet. 2. 24.</note>; and interceſſion <note n="w" place="bottom">Rom. 8. 34. Hebr. 7. 25.</note>;</l>
+                  <l>Whereby now ſtanding in the full poſſeſſion</l>
+                  <l>Of glory <note n="x" place="bottom">Phil. 2. 9, 10. Heb. 7. 25.</note>; he deſires, his offering may</l>
+                  <l>Prevail with God, for his elect <note n="y" place="bottom">
+                        <hi>Joh.</hi> 17. 9, to the end.</note>, and they</l>
+                  <l>May have their ſuits, and prayers granted ſtill <note n="z" place="bottom">Joh. 16. 23, 24, 26, 27.</note>,</l>
+                  <l>When they are made according to his will <note n="a" place="bottom">1 Ioh. 5. 14, 15.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Of CHRIST his Perſon, and his Office both,</l>
+                  <l>Is ſaid enough, and now it plainly doth</l>
+                  <l>Appear, how CHRIST is made our remedy:</l>
+                  <l>But remedies though made, if none apply</l>
+                  <l>Them to the patient, doe not heal, ſhew then,</l>
+                  <l>How CHRIST applied is to us, and when.</l>
+               </sp>
+            </div>
+            <div n="8" type="part">
+               <pb n="17" facs="tcp:55681:12"/>
+               <head>8. How Chriſt is made ours.</head>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>He is appli'd, made ours, this way alone;</l>
+                  <l>By being joyned with us, and made one <note n="b" place="bottom">Heb. 3. 15. Ioh. 17. 21, 22, 23.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How, ſpeak wherein this union doth conſiſt?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>In this, that we remain and live in Chriſt,</l>
+                  <l>And he in us, that each is held poſſeſt</l>
+                  <l>Of other, by a ſpeciall intereſt <note n="c" place="bottom">1 Cor. 1. 9. Ioh. 14. 19, 20. Gal. 2. 20.</note>:</l>
+                  <l>So that we are his branches <note n="d" place="bottom">Ioh. 15. 5.</note>, and his wife <note n="e" place="bottom">Hoſ. 2. 19, 20.</note>,</l>
+                  <l>His parts <note n="f" place="bottom">1 Cor. 12. 27.</note>, and draw to us, growth <note n="g" place="bottom">Col. 2. 19.</note>, gifts <note n="h" place="bottom">Eph. 4. 7, 8.</note>, &amp; life <note n="i" place="bottom">Ioh. 6. 47, 48.</note>;</l>
+                  <l>From him our vine <note n="k" place="bottom">Ioh. 15. 1.</note>, our husband <note n="l" place="bottom">Cant. 4. 8, 16.</note>, and our head <note n="m" place="bottom">1 Cor. 11. 3.</note>,</l>
+                  <l>By which we grow, proſper, and are quickned <note n="n" place="bottom">Eph. 2. 5.</note>:</l>
+                  <l>And he doth take on him by imputation,</l>
+                  <l>Our ſins <note n="o" place="bottom">2 Cor. 5. 21.</note>, and bears our woes, by his compaſſion <note n="p" place="bottom">1 Pet. 2. 24. Heb. 4. 15.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is it that we by this union have?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>What thing ſoever needfull is to ſave <note n="q" place="bottom">Rom. 8. 32. 2 Pet. 1. 3.</note>,</l>
+                  <l>Whole Chriſt himſelf <note n="r" place="bottom">2 Pet. 1. 4. Heb. 2 14. Eph. 5. 30. 1 Cor. 6. 17.</note>, his merits, every good,</l>
+                  <l>Which the bleſt virtue of his fleſh and blood</l>
+                  <l>May yeild <note n="ſ" place="bottom">1 Cor. 1. 30, Rom. 8. 32.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the parts of it?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>I call</l>
+                  <pb n="18" facs="tcp:55681:13"/>
+                  <l>The parts theſe, imputation, and reall,</l>
+                  <l>Or an habituall infuſion:</l>
+                  <l>The firſt is when, what Chriſt in's paſſion</l>
+                  <l>Suffred, and acted by his holineſs;</l>
+                  <l>Imputed is to us, for righteouſneſs <note n="t" place="bottom">2 Cor. 5. 21.</note>.</l>
+                  <l>The ſecond when, grace in ſome meaſure, is</l>
+                  <l>Beſtowed here <note n="u" place="bottom">Epheſ. 4. 7. 1 Pet. 5. 10</note>, but plenteouſly in bliſs <note n="w" place="bottom">1 Cor. 13. 9, 10, 12.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is this unions bond, the ſacred tie,</l>
+                  <l>That Chriſt and us conjoyneth mutually?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The Holy Ghoſt <note n="x" place="bottom">1 Cor. 12. 3.</note>; for as the members be</l>
+                  <l>All knit unto the head by nerves, ſo he,</l>
+                  <l>By his internall operation, knits</l>
+                  <l>Us unto Chriſt, with all his benefits <note n="y" place="bottom">1 Cor. 1. 30. &amp; 12. 12, 13.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Doth not he work this by ſome inſtruments?</l>
+               </sp>
+            </div>
+            <div n="9" type="part">
+               <head>9. The means of our unity <note n="a" place="bottom">Ioh. 1. 12. Phil. 3. 9.</note> to Chriſt.</head>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Yes: theſe, our faith, Gods word <note n="b" place="bottom">Rom. 10. 17.</note>, and ſacra<g ref="char:EOLhyphen"/>ments <note n="c" place="bottom">Rom 6. 3, 4, 5, 6. 1 Cor. 10. 16, 17.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>By faith how?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Faith he gives <note n="d" place="bottom">Phil. 1. 29. Matth. 16. 17.</note>, and ſo doth make</l>
+                  <l>Us able, of Chriſt Jeſus to partake <note n="e" place="bottom">Eph. 3. 17. Ioh. 1. 12.</note>:</l>
+                  <l>For faith is to the ſoul, an hand extended,</l>
+                  <l>Whereby Chriſt (though above) is apprehended,</l>
+                  <pb n="19" facs="tcp:55681:13"/>
+                  <l>And brought home to it <note n="f" place="bottom">1 Pet. 1. 7, 8, 9. Rom. 1. 16, 17. &amp; 5. 1, 2.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How doe you define</l>
+                  <l>This faith?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>It is a quality divine <note n="g" place="bottom">Phil 1. 29. Heb. 11. 1. Mat. 16. 17.</note>,</l>
+                  <l>By which we know and doe aſſent unto</l>
+                  <l>Gods word <note n="h" place="bottom">Joh. 2. 22.</note> and promiſes in Chriſt, and doe</l>
+                  <l>Confide therein <note n="i" place="bottom">Rom. 4. 16, to 21.</note>, and know moſt certainly <note n="k" place="bottom">Job 19. 25, 26, 27.</note>
+                  </l>
+                  <l>That God in Chriſt doth love us graciouſly <note n="l" place="bottom">Joh. 3. 16, 17.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Who is the author of this faith?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The Lord <note n="m" place="bottom">Phil. 1. 6, &amp; 29. 2 Cor. 3. 45.</note>,</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>The object what?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The Generall, his Word <note n="n" place="bottom">Joh. 5. 46, 47. Exod. 14. 31. Ioh. 2. 22.</note>
+                  </l>
+                  <l>The Speciall, that part which concerns his Son</l>
+                  <l>Chriſt crucifi'd <note n="o" place="bottom">Ioh. 1. 15. Rom. 8. 9, 10, 11.</note>, our faith's foundation <note n="p" place="bottom">1 Pet. 2. 6. Act. 4. 11, 12.</note>.</l>
+                  <l>The ſumme whereof we have ſet down in brief</l>
+                  <l>In the twelve Articles of our belief</l>
+                  <l>Which if you pleaſe I will repeat and ſhow</l>
+                  <l>The ſenſe of them, but briefly.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Be it ſo.</l>
+               </sp>
+            </div>
+            <div n="10" type="part">
+               <head>10. The Belief.</head>
+               <sp>
+                  <speaker>A</speaker>
+                  <l>My faith's firſt object, &amp; my faith's ſole Author,</l>
+                  <l>Is God in eſſence, but in perſon Father <note n="q" place="bottom">Eph. 3. 14, 15, 16, 17. Mat. 16. 17.</note>,</l>
+                  <l>Almighty in his power <note n="r" place="bottom">1 Chron. 29. 11, 12. Pſal. 145. 6.</note>, the earth's great founder</l>
+                  <pb n="20" facs="tcp:55681:14"/>
+                  <l>And heavens builder <note n="ſ" place="bottom">
+                        <hi>Gen.</hi> 1, to the 11.</note>, which about doth round her <note n="t" place="bottom">2 Chron. 2. 6.</note>
+                  </l>
+                  <l>Next Chriſt in office <note n="u" place="bottom">Rev. 19 16. Deut. 18. 15. Pſal. 110. 4.</note>, Jeſus by his name <note n="w" place="bottom">Mat. 1. 31.</note>,</l>
+                  <l>Gods Son in perſon <note n="x" place="bottom">Pſal. 2. 7. Mat. 3. 17. Rom. 1. 2, 3.</note>, yet with God the ſame <note n="y" place="bottom">Ioh. 1. 1, 2.</note>;</l>
+                  <l>Props up my faith <note n="z" place="bottom">Act. 4. 11, 12.</note>, whom I believe to be</l>
+                  <l>My Lord God man, in one hypoſtaſie <note n="a" place="bottom">Gal 4 4, 5.</note>,</l>
+                  <l>Born of a Virgin <note n="b" place="bottom">Iſa. 7 14.</note>, whoſe pure womb his ſeat</l>
+                  <l>Was made, by th' vertue of the paraclete <note n="c" place="bottom">Luke 1. 35.</note>,</l>
+                  <l>Condemn'd by <hi>Pilate</hi> 
+                     <note n="d" place="bottom">Mat. 27 24, 26.</note> on the Croſſe did die</l>
+                  <l>A ſhamefull death <note n="e" place="bottom">Luke 23. 46.</note>, dead in the grave did lie <note n="f" place="bottom">Mar. 15. 46.</note>;</l>
+                  <l>So alſo into Hell he did deſcend;</l>
+                  <l>The truth whereof ev'n thus me may defend:</l>
+                  <l>In <hi>Gethſamane</hi> he ſuffred by's agony <note n="g" place="bottom">
+                        <hi>Mar.</hi> 14. 3., to the 37.</note>,</l>
+                  <l>So likewiſe upon the Croſſe (when he did cry</l>
+                  <l>ELOI, ELOI, LAMASABACHTHANI <note n="h" place="bottom">Mar. 15. 34</note>?)</l>
+                  <l>The helliſh torments due to thoſe that die</l>
+                  <l>In their ſins, without regeneration,</l>
+                  <l>And ſo not capable of Gods compaſſion <note n="i" place="bottom">Mat. 26. 37, 38, 39. Mat. 27. 46. 1 Pet. 2. 24. 2 Cor. 5. 21.</note>.</l>
+                  <l>Then after, on the third day he did riſe <note n="k" place="bottom">Luke 24. 6, 7. Iohn 2, 19.</note>,</l>
+                  <l>Triumphant Victor ore his enemies <note n="l" place="bottom">Pſal. 2. 9. 1 Cor. 15, 55, 56, 57.</note>,</l>
+                  <pb n="21" facs="tcp:55681:14" rendition="simple:additions"/>
+                  <l>Aſcend to heaven <note n="m" place="bottom">Luke 24. 51. Ioh. 3. 13, 14.</note> where inthronized <note n="n" place="bottom">Rev. 20. 11.</note>,</l>
+                  <l>He ſits <note n="o" place="bottom">Mar. 16. 19.</note> till he ſhall judge the quick and dead <note n="p" place="bottom">2 Cor. 5. 10. Rev. 20. 12, 13.</note>.</l>
+                  <l>The third main pillar of my faith is he,</l>
+                  <l>Who though proceeding (to make up the three</l>
+                  <l>Perſons) both from the Father and the Son,</l>
+                  <l>Yet is not made, becauſe with them he's one <note n="q" place="bottom">Gal. 4. 6. 2 Ioh. 5. 7, 8.</note>;</l>
+                  <l>Who doth reſtore in us, our goodneſs loſt</l>
+                  <l>By ſin <note n="r" place="bottom">1 Cor. 6. 11.</note>, whence he is call'd the Holy Ghoſt <note n="ſ" place="bottom">2 Iohn 5. 7.</note>.</l>
+                  <l>An univerſall Church of Saints above <note n="t" place="bottom">Heb. 12. 22, 23.</note>,</l>
+                  <l>And here united by the bond of love;</l>
+                  <l>I doe believe to be <note n="u" place="bottom">1 <hi>Cor.</hi> 12. 12, to the end, 2 <hi>Phil.</hi> 1, to the 6. 2 <hi>Col.</hi> 19.</note>, in that I live <note n="w" place="bottom">1 John 1. 3.</note>,</l>
+                  <l>Whoſe ſins through Chriſt his Son God doth for<g ref="char:EOLhyphen"/>give <note n="x" place="bottom">
+                        <hi>Iſa.</hi> 53. 4, to the end. <hi>Dan. 9. 24. Mat. 1. 21. 1 Cor.</hi> 18, 19, 21.</note>:</l>
+                  <l>And will me raiſe, though dead 'mongſt other men <note n="y" place="bottom">1 <hi>Cor.</hi> 15. 12, to the end. <hi>Iob</hi> 19. 25, 26, 27.</note>,</l>
+                  <l>And bring me j to eternall life <note n="z" place="bottom">1 Pet. 1. 3, 4, 5. Heb. 9. 15. Phil. 3. 21.</note> AMEN.</l>
+               </sp>
+               <p>[<hi>As the</hi> Apoſtles Creed <hi>is the ſum of the whole Goſpel, or as an abſtract of the New Testament: ſo theſe eight lines following are the ſumme of that Creed, and therefore needs no further proof.</hi>]</p>
+               <sp>
+                  <pb n="22" facs="tcp:55681:15"/>
+                  <l>This is the Creed, whoſe ſumme, and ſenſe is this:</l>
+                  <l>I doe confide, and put my hope of bliſſe,</l>
+                  <l>In one Chriſt crucifi'd, who given me by</l>
+                  <l>The Fathers mercy, doth ſpiritually</l>
+                  <l>Impart himſelf unto his Church, and me</l>
+                  <l>By God the Holy Ghoſt to make me be,</l>
+                  <l>Partaker of his deaths moſt pretious merit,</l>
+                  <l>And that I may eternall life inherit.</l>
+               </sp>
+            </div>
+            <div n="11" type="part">
+               <head>11. How we are juſtified by faith in Chriſt.</head>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Then you make Chriſt the ſcope &amp; ground of faith.</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>I doe <note n="a" place="bottom">Rom. 3. 24, 25.</note>, and hence it is the Apoſtle ſaith</l>
+                  <l>Faith juſtifies <note n="b" place="bottom">Rom. 5. 1. Gen. 15. 6. Rom. 4. 24. &amp; 3. 28.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Not as 'tis a grace <note n="c" place="bottom">compare <hi>Rom.</hi> 4. 5. with <hi>Rom.</hi> 10. 10.</note>,</l>
+                  <l>But as it doth our Saviour Chriſt imbrace <note n="d" place="bottom">Gal. 2. 16.</note>,</l>
+                  <l>Who is our righteouſneſs <note n="e" place="bottom">Phil. 3. 9. Iohn 1. 12.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is it then</l>
+                  <l>To juſtifie us ſinners?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>It is when</l>
+                  <l>For Chriſt his ſake (who both in life and death</l>
+                  <l>Fulfill'd the Law for us <note n="f" place="bottom">Rom. 5. 17, 18, 19.</note>) God pardoneth</l>
+                  <l>Freely our ſins <note n="g" place="bottom">Rom. 3. 24, 25. Eph. 1. 7. Acts 10. 43.</note>, condemns us not to die <note n="h" place="bottom">Rom. 5. 9, 10. Iohn 3. 16.</note>,</l>
+                  <l>Imputes unto us to eternity</l>
+                  <l>The righteouſneſs of Chriſt <note n="i" place="bottom">1 Cor. 1. 30. 2 Cor. 5. 19, 21.</note>, wherewith array'd</l>
+                  <pb n="23" facs="tcp:55681:15"/>
+                  <l>By faith <note n="k" place="bottom">Rev. 16 15.</note> (as if we had our ſelves obey'd</l>
+                  <l>The whole Law perfectly) we in Gods ſight,</l>
+                  <l>Holy and pure appear, as is the light <note n="l" place="bottom">
+                        <hi>Rom</hi> 5. 18, 19. This place gives the reaſon of the whole anſwer.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Sith faith ſo needfull is, I'de have you tell,</l>
+                  <l>By what ſignes may we know that Chriſt doth dwell</l>
+                  <l>In us by faith?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>By theſe, regeneration <note n="m" place="bottom">2 Cor. 5. 17. 1 Iohn 3. 24. Rom. 6. 4. Acts 20. 21.</note>,</l>
+                  <l>And by the Spirits ſecret revelation <note n="n" place="bottom">1 Cor. 6. 11 &amp; 1 Cor. 2. 10. Iohn 14. 16, 17. 1 Iohn 5. 6.</note>:</l>
+                  <l>For it doth with our ſpirits witneſs bear,</l>
+                  <l>That we are Gods ſons, ſo that ſervile fear</l>
+                  <l>Remov'd as children we dare faithfully,</l>
+                  <l>To God Almighty, <hi>Abba,</hi> Father, cry <note n="o" place="bottom">Rom. 8. 14, 15, 16.</note>.</l>
+               </sp>
+            </div>
+            <div n="12" type="part">
+               <head>12. Concerning Regeneration.</head>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>What is Regeneration?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>A renewing</l>
+                  <l>Of minde, will, the whole man, or an endowing</l>
+                  <l>Of them with holy qualities <note n="p" place="bottom">Tit. 3. 5. Ezek 36. 25, 26, 27. 2 Cor. 5. 17.</note>, for in</l>
+                  <l>Whom Chriſt's Spirit, and faith are, there no ſin</l>
+                  <l>Can reign <note n="q" place="bottom">1 Iohn 3. 9. &amp; 5. 18.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the parts thereof expreſs?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Sin-killing, and a life of righteouſneſs <note n="r" place="bottom">Rom. 6. 1, to 5. Col. 3. 9, 10.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What's that?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>'Tis by degrees for to deſtroy,</l>
+                  <pb n="24" facs="tcp:55681:16"/>
+                  <l>(Through Chriſt his death) ſin that doth moſt an<g ref="char:EOLhyphen"/>noy</l>
+                  <l>The ſoul, that from thenceforth it is no more,</l>
+                  <l>So potent to deprave, as 'twas before <note n="ſ" place="bottom">Rom. 6. 6. &amp; 12. 14. &amp; 21. 23.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the means on our part, by which we</l>
+                  <l>May ſin ſubdue?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Eſpecially theſe three:</l>
+                  <l>The ſight of ſin <note n="t" place="bottom">Pſal. 5 1. 3, 4, 5. 1 Iohn 1. 8, 9.</note> through ſelf-examination <note n="u" place="bottom">Pſal 4. 4. Gal. 6. 4.</note>,</l>
+                  <l>Next Godly-ſorrow <note n="w" place="bottom">Pſal. 51. 17. 2 Cor. 7. 9, 10, 11.</note>, with ſins deteſtation <note n="x" place="bottom">Rom. 6. 21 &amp; 12. 9.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is that other part, the which you call</l>
+                  <l>A life of righteouſneſs?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>It is when all</l>
+                  <l>Our faculties throughout, being reform'd</l>
+                  <l>By God the Holy Ghoſt, there are perform'd <note n="y" place="bottom">Eph. 4. 23, 24. Rom. 6. 19.</note>
+                  </l>
+                  <l>Such actions by them, as which God requires <note n="z" place="bottom">Gal. 5. 22, 23, 25.</note>;</l>
+                  <l>The Minde knows the true God <note n="a" place="bottom">Col. 1. 10. 1 Iohn 2. 3, 5.</note>, the Will deſires</l>
+                  <l>Him <note n="b" place="bottom">Pſal. 63. 1, 5, 8.</note>, the Affections doe the ſame purſue <note n="c" place="bottom">Col. 3. 2.</note>,</l>
+                  <l>And every part acteth its office due <note n="d" place="bottom">Rom. 6. 1<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Follows it then, what you doe ſeem to ſay</l>
+                  <l>That in whom Christ abideth, onely they</l>
+                  <l>Live holy?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Yes, ev'n as ſurely as they live,</l>
+                  <l>Who have a ſoul, which to them life doth give <note n="e" place="bottom">Iohn 15. 5. 2 Cor. 5. 17.</note>:</l>
+                  <l>And therefore though faith juſtifies alone <note n="f" place="bottom">Rom. 3. 28.</note>;</l>
+                  <l>The faith that works not, juſtifieth none <note n="g" place="bottom">James 2. 14, 15, 16, 17, 26.</note>.</l>
+                  <pb n="25" facs="tcp:55681:16"/>
+                  <l>For as faith us (as the Apoſtle ſayeth)</l>
+                  <l>Doth juſtifie <note n="h" place="bottom">Rom. 5. 1.</note>: ſo works makes juſt our faith <note n="i" place="bottom">Iam. 2. 18, 21, to 24.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What works?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Such works as both the cauſes whence</l>
+                  <l>They come, the love of God <note n="k" place="bottom">Gal. 5. 6. 1 Ioh. 2. 5. &amp; 5. 2, 3.</note>, &amp; conſcience</l>
+                  <l>Of Duty <note n="l" place="bottom">2 Cor. 1. 12. Act. 24. 16.</note>, faith in Chriſt <note n="m" place="bottom">1 Pet. 1. 5, to 8.</note>, and ſo the end,</l>
+                  <l>Gods glorifying, unto which they tend <note n="n" place="bottom">1 Cor. 10. 31. Rom. 11. 36. Rev. 4. 11.</note>,</l>
+                  <l>Make pleaſing unto God <note n="o" place="bottom">Rom. 12. 12. 1 Theſ. 4. 1. Eph. 5. 8, 9, 10.</note>, and doe agree</l>
+                  <l>(In ſome ſort) with Gods law <note n="p" place="bottom">Rom. 7. 22.</note>, although they be</l>
+                  <l>Not abſolutely perfect <note n="q" place="bottom">Luke 17. 10.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What 'mongst all</l>
+                  <l>Thoſe good works, doe you think moſt principall?</l>
+               </sp>
+            </div>
+            <div n="13" type="part">
+               <head>13. Concerning Prayer.</head>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Prayer for this is the moſt evident</l>
+                  <l>Signe of our faith, that we are confident</l>
+                  <l>On Gods love to us, ſith we dare deſire</l>
+                  <l>Of him thoſe good things which our wants require <note n="r" place="bottom">Mat. 22, to the 29.</note>:</l>
+                  <l>Yea, by the help of this, we get the ſtrength,</l>
+                  <l>Whereby to doe all other works at length <note n="ſ" place="bottom">Iohn 16. 23. Mat. 7. 7, to the 12.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>But what is Prayer?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>An affection</l>
+                  <l>Of heart devout <note n="t" place="bottom">Pſal. 62. 8.</note>, whereby we call upon</l>
+                  <pb n="26" facs="tcp:55681:17" rendition="simple:additions"/>
+                  <l>God to avert ill from us <note n="u" place="bottom">Pſal. 50. 15.</note>, and to grant</l>
+                  <l>Unto us ſuch good things as we doe want <note n="w" place="bottom">Jam. 1. 5.</note>:</l>
+                  <l>Which we believe through Chriſt he will afford</l>
+                  <l>Us <note n="x" place="bottom">John 16. 23.</note>, asking them according to his word <note n="y" place="bottom">Jam. 1. 6. 1 John 5. 14, Matth. 7. 21.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>But dareth ſinfull man by invocation</l>
+                  <l>Soli it God?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Yes through the mediation</l>
+                  <l>Of JESUS CHRIST <note n="z" place="bottom">John 14. 13, 14.</note>, our onely Advocate <note n="a" place="bottom">1 Joh. 2. 12. 1 Tim. 2. 5.</note>,</l>
+                  <l>In whom our prayers pleaſe and impetrate <note n="b" place="bottom">John 14. 13, 14.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Why ſay you onely; Doe not Saints likewiſe,</l>
+                  <l>This work of interceding exerciſe?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>They doe not <note n="c" place="bottom">Pſal 115. 17.</note>, for they know not what we have</l>
+                  <l>Need of <note n="d" place="bottom">1 Cor. 2. 11.</note>; beſides ſith Chriſt alone doth ſave <note n="e" place="bottom">Acts 4. 12. 1 Theſ. 5. 9.</note>,</l>
+                  <l>And ſaith that whatſoever (in his name)</l>
+                  <l>We ask the Father, he will give the ſame <note n="f" place="bottom">John 16. 23.</note>;</l>
+                  <l>Why ſhould we, nay how dare we in the ſtead <note n="g" place="bottom">John 14. 6.</note>
+                  </l>
+                  <l>Of Chriſt think Saints ſhoud intercede!</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the things which we muſt pray unto</l>
+                  <l>God for with hope of being heard?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>What doe</l>
+                  <l>Concern God's glory firſt <note n="i" place="bottom">
+                        <hi>Mat.</hi> 6. 9, 10. being the 3 firſt Petitions of the Lords Prayer.</note>, next our ſouls good <note n="k" place="bottom">
+                        <hi>Pſal.</hi> 51. 1, to the 13.</note>,</l>
+                  <l>Then needfull things for life, as cloath's and food <note n="l" place="bottom">Prov. 30. 8.</note>,</l>
+                  <pb n="27" facs="tcp:55681:17"/>
+                  <l>And therefore that we ſhould not pray amiſs,</l>
+                  <l>For things unlawfull, what our nature is</l>
+                  <l>Apt to ſeek after <note n="m" place="bottom">
+                        <hi>Iames</hi> ch. 1. ver. 6, 7. &amp; 3. chap. ver. 3.</note>, Chriſt himſelf did teach</l>
+                  <l>What good things are, and in what order each</l>
+                  <l>Is to be pray'd for, in that Form which he</l>
+                  <l>Preſcrib'd to his Diſciples, and which we</l>
+                  <l>Call the Lords Prayer <note n="n" place="bottom">
+                        <hi>Mat.</hi> 6. 9, to the 13. <hi>Luke</hi> 11. 2, 3, 4.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Now this therefore ſay</l>
+                  <l>And give its ſenſe?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Then Chriſt doth bid us pray</l>
+               </sp>
+            </div>
+            <div n="14" type="part">
+               <head>14. The Lords Prayer briefly expounded.</head>
+               <sp>
+                  <l>
+                     <hi>O<g ref="char:V">Ʋ</g>r Fatther,</hi> full of mercy <note n="p" place="bottom">Pſal 123. 2, 3. Epheſ. 2. 4. Exod. 20. 6. &amp; 34. 6, 7.</note> and of love <note n="q" place="bottom">John 3. 16. 1 John 3. 1. &amp; 4 9. Rom. 5. 5, 8.</note>;</l>
+                  <l>
+                     <hi>Which art:</hi> though every where <note n="r" place="bottom">
+                        <hi>Pſal.</hi> 139. 6, to the 13.</note>, <hi>in Heaven</hi> a<g ref="char:EOLhyphen"/>bove,</l>
+                  <l>Chiefly in glory ſhining <note n="ſ" place="bottom">1 Kings 8. 29, 43. Pſal. 123. 1. Iſa. 66. 1.</note>, <hi>Hallowed be,</hi>
+                  </l>
+                  <l>By pious works <note n="t" place="bottom">1 Cor. 10. 31. Mat. 5. 16.</note>, ſpeeches <note n="u" place="bottom">Pſal. 19. 14. &amp; 47. 6, 7.</note>, &amp; thoughts of thee <note n="w" place="bottom">Pſal. 103. 1, 2.</note>,</l>
+                  <l>
+                     <hi>Thy name</hi> 
+                     <note n="x" place="bottom">Pſal. 83. 18.</note>: thy ſacred Attributes <note n="y" place="bottom">
+                        <hi>Pſal.</hi> 89. 11, to 14.</note> and Word <note n="z" place="bottom">2 Theſ. 3. 1. Pſal. 147. 19, 20.</note>:</l>
+                  <l>
+                     <hi>Thy Kingdome come</hi> 
+                     <note n="a" place="bottom">Iſa. 9. 7.</note>: as a moſt mighty LORD,</l>
+                  <l>Shew forth thy power <note n="b" place="bottom">1 Cor. 4. 20. Rev. 4. 10, 11.</note>, in confounding thoſe, <note n="o" place="bottom">Mat. 6. 9. Iſa. 64. 8, 9. Luke 11. 13. Rom. 8. 15.</note>
+                  </l>
+                  <pb n="28" facs="tcp:55681:18"/>
+                  <l>That doe maliciouſly thy Church oppoſe <note n="c" place="bottom">Pſal. 68. 1, &amp; 18.</note>:</l>
+                  <l>And Rule thou in it, by thy Spirits grace <note n="d" place="bottom">
+                        <hi>Eph</hi> 3. 14 to the end. <hi>Gal</hi> 6. 16.</note>,</l>
+                  <l>And make it to behold thy glorious face <note n="e" place="bottom">Pſal 27. 8, 9. Num. 6. 24, 25. 1 Cor. 13. 12.</note>:</l>
+                  <l>
+                     <hi>Thy will:</hi> thy Law <note n="f" place="bottom">Pſal 119. 1.</note>. <hi>be done</hi> 
+                     <note n="g" place="bottom">Acts 21. 14.</note>; obſerved by</l>
+                  <l>Us men <hi>in earth</hi> 
+                     <note n="h" place="bottom">Pſal. 119, 32, 33, 34.</note> and that ſo readily</l>
+                  <l>
+                     <hi>As it is</hi> by thy bleſſed Spirits that reign</l>
+                  <l>With thee <hi>in heaven</hi> 
+                     <note n="i" place="bottom">Pſal 103 20, 21. Heb. 1. 6, 7.</note>, ſo free from ſin and pain <note n="k" place="bottom">Mat. 22. 30. Luke 20. 36.</note>
+                  </l>
+                  <l>
+                     <hi>Give</hi> 
+                     <note n="l" place="bottom">Jam 1. 5.</note>; for we challenge nothing as an hire <note n="m" place="bottom">Gen. 32. 10.</note>,</l>
+                  <l>
+                     <hi>
+                        <g ref="char:V">Ʋ</g>s,</hi> that doe for the common good deſire <note n="n" place="bottom">1 Tim. 2. 1. Jam. 5. 16.</note>,</l>
+                  <l>
+                     <hi>This day;</hi> this time, (for we no longer live</l>
+                  <l>Than thou unto us of thy grace doſt give <note n="o" place="bottom">
+                        <hi>Deut.</hi> 8. 7, to the 18.</note>)</l>
+                  <l>
+                     <hi>Our,</hi> wrought for by us <note n="p" place="bottom">Gen. 3. 19. 1 Theſ. 3. 10, 11, 12.</note>, though not merited <note n="q" place="bottom">Deut. 9. 4. 5, 6.</note>,</l>
+                  <l>
+                     <hi>Daily;</hi> ſufficient for the preſent <note n="r" place="bottom">Mat. 6. 34.</note>, <hi>bread,</hi>
+                  </l>
+                  <l>Our ſouls food, Chriſt <note n="ſ" place="bottom">
+                        <hi>John</hi> 6. 48, to the 58.</note>, and every benefit</l>
+                  <l>Needfull, to maintain life, or ſtrengthen it <note n="t" place="bottom">
+                        <hi>Gen.</hi> 18. 4, to the 9. <hi>Mat.</hi> 4. 4.</note>.</l>
+                  <l>
+                     <hi>And forgive us our treſpaſſes</hi> 
+                     <note n="u" place="bottom">
+                        <hi>Mat. 18. 24. Rom.</hi> 3. 9, to the 24. <hi>Pſal.</hi> 130. 3, 4.</note>, be pleaſ'd</l>
+                  <l>For Chriſt his merit ſake to be appeaſ'd,</l>
+                  <pb n="29" facs="tcp:55681:18"/>
+                  <l>Towards us, and doe thou not us condemn <note n="w" place="bottom">Rom. 3. 24, 25, 26 John 5. 24. Rom. 8. 1.</note>
+                  </l>
+                  <l>(Though we deſerve death <note n="x" place="bottom">Rom. 5. 12.</note>) <hi>As we forgive men</hi>
+                  </l>
+                  <l>
+                     <hi>That trespaſſe againſt us</hi> 
+                     <note n="y" place="bottom">Mat. 6. 14, 15.</note>, as we doe thoſe</l>
+                  <l>Love and imbrace as friends, that are our foes <note n="z" place="bottom">Mat. 5. 44, 45.</note>.</l>
+                  <l>
+                     <hi>And lead us not,</hi> permit us not to fall <note n="a" place="bottom">Luke 22. 31, 32.</note>,</l>
+                  <l>Whoſe nature's frail <note n="b" place="bottom">Rom. 7. 33, 34.</note>, whoſe ſtrength is none at <hi>all</hi> 
+                     <note n="c" place="bottom">2 Chro. 20. 12. 2 Cor. 3. 5. Acts 15. 10.</note>.</l>
+                  <l>
+                     <hi>Into temptation</hi> 
+                     <note n="d" place="bottom">1 Cor. 1. 13. Jam. 1. 13, 14.</note>: or to be miſled</l>
+                  <l>Into impiety or vanquiſhed</l>
+                  <l>By Satan, <hi>But deliver us from evil</hi> 
+                     <note n="f" place="bottom">2 Cor. 13. 7. John 17. 15.</note>:</l>
+                  <l>Preſerve us from the malice of the Devil <note n="g" place="bottom">2 Cor. 12. 7, 8. Rom. 16. 20.</note>.</l>
+                  <l>And from the danger of the fleſh <note n="h" place="bottom">Rom. 7. 5, 18. &amp; 8. 5, 6, 7, 8.</note>, and world <note n="i" place="bottom">1 Joh. 5. 4, 5.</note>,</l>
+                  <l>Leſt after into Hell we ſhould be hurl'd,</l>
+                  <l>
+                     <hi>For thine is</hi> (onely thine) <hi>the kingdome,</hi> none</l>
+                  <l>Doth reign in earth, but under thee alone,</l>
+                  <l>Chief King of kings <note n="l" place="bottom">1 Chro. 29. 11. Deut. 10. 17. Rev. 19. 16.</note>. <hi>The power</hi> what it will</l>
+                  <l>Effecting <note n="m" place="bottom">2 Chro. 20. 6. Iſa. 50. 2, 3. 1 Chro. 29. 12.</note>, <hi>and the glory</hi> 
+                     <note n="n" place="bottom">Rev. 4. 11. Luke 2. 14.</note>, that doth fill <note n="e" place="bottom">1 Chro. 21. 1, 2, 3, 4. 2 Chr. 20. 12.</note> 
+                     <note n="k" place="bottom">Luke 12. 5. Mat. 23. 33.</note>
+                  </l>
+                  <pb n="30" facs="tcp:55681:19"/>
+                  <l>The world with its greatneſs <note n="o" place="bottom">Num. 14. 21. Exod. 40. 34. 1 Kings 8. 11.</note>; and delight</l>
+                  <l>The Saints beyond expreſſion, that its ſight</l>
+                  <l>Fully enjoy <note n="p" place="bottom">Pſal. 16. 11.</note>, <hi>for ever,</hi> both before,</l>
+                  <l>All time <hi>and ever</hi> 
+                     <note n="q" place="bottom">Pſal. 48. 14. &amp; 145. 21.</note>, after 'tis no more <note n="r" place="bottom">Pſal. 90. 2.</note>:</l>
+                  <l>
+                     <hi>Amen</hi> 
+                     <note n="ſ" place="bottom">Rev. 22. 20, 21. Eph. 3. 21.</note>. Let it be done, for we believe,</l>
+                  <l>The things that we have pray'd for, thou canſt give <note n="t" place="bottom">Jam 1. 5. 1 Cor. 4. 7.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>But is it needfull that we alwaies ſay,</l>
+                  <l>Our Saviours very word when we doe pray?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>No 'tis enough ſometimes they doe accord</l>
+                  <l>In matter with this Prayer of the Lord <note n="u" place="bottom">compare <hi>Mat.</hi> 6. 9. with <hi>Luke</hi> 11. 2.</note>,</l>
+                  <l>But yet with underſtanding them to uſe,</l>
+                  <l>Better it were for us, than to abuſe</l>
+                  <l>Our Saviours warrant for it, ſo to doe;</l>
+                  <l>By quite neglecting or contemning to</l>
+                  <l>Uſe thoſe his very words, at any time;</l>
+                  <l>For ſo to doe, will ſurely prove a crime,</l>
+                  <l>Becauſe our Saviour bids us when we pray,</l>
+                  <l>
+                     <hi>Our Father which art in heaven</hi>—<note n="*" place="bottom">Luke 11. 2.</note> to ſay.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Now you have ſhew d what things, ſhew how we muſt</l>
+                  <l>Pray for them?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Surely it is very juſt,</l>
+                  <l>If we expect a gracious audience</l>
+                  <l>From God <note n="w" place="bottom">Pſal. 4. 1. &amp; 5. 1, 2, 3.</note>, that we ſhould pray in faith <note n="x" place="bottom">Jam. 1. 5, 6, 7. Mar. 11. 24.</note>, a ſenſe</l>
+                  <pb n="31" facs="tcp:55681:19"/>
+                  <l>Of our own wants <note n="y" place="bottom">Luke 15. 17, 18, 19.</note>, lowly humility <note n="z" place="bottom">Luke 18. 13, 14.</note>,</l>
+                  <l>Repentance <note n="a" place="bottom">
+                        <hi>Pſal.</hi> 51, the whole Pſalm.</note>, conſtancy <note n="b" place="bottom">1 Theſ. 1 17. Epheſ. 6. 18.</note>, ſincerity <note n="c" place="bottom">Pſal 17. 1. &amp; 145. 18, 19. 1 Tim. 2. 8.</note>,</l>
+                  <l>Zeal <note n="d" place="bottom">Jam. 5. 16.</note>, underſtanding <note n="e" place="bottom">1 Cor. 14. 15.</note>, wrongs forgetting <note n="f" place="bottom">Mar. 11. 24, 25.</note>, love <note n="g" place="bottom">Mat. 5. 44. 1 Tim. 1. 2.</note>,</l>
+                  <l>With a minde wholly fixt on things above h.</l>
+               </sp>
+            </div>
+            <div n="15" type="part">
+               <head>15. Concerning Gods Word and Sacraments.</head>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>Beſides our faith, Gods Word and Sacraments</l>
+                  <l>You ſaid were alſo uſed as inſtrument's <note n="*" place="bottom">See page 10.</note>
+                  </l>
+                  <l>In <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>oyning <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> to Chriſt?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The means whereby</l>
+                  <l>God faith begetteth, and ſo doth apply</l>
+                  <l>Chriſt to our ſouls, are theſe indeed <note n="i" place="bottom">Acts 2. 41, 42, 46.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>What doe</l>
+                  <l>You mean hereby the Word of God?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The two</l>
+                  <l>Moſt ſacred Teſtaments, whoſe principall</l>
+                  <l>Parts we the Law and Goſpel uſe to call <note n="k" place="bottom">Gal. 4. 22, to the 28.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>To what end ſerves the preaching of the Law?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>By ſhewing us our miſery <note n="l" place="bottom">Rom. 3. 19, 20. &amp; 7. 8.</note> to draw</l>
+                  <l>Us to deſire the ſaving remedy <note n="m" place="bottom">Gal. 3. 24.</note>,</l>
+                  <l>Such as may eaſe and cure that miſery <note n="n" place="bottom">Gal. 4. 4, 5. Rom. 10. 4. Gal. 3. 13, 14.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How doth Gods Word by the Gospels preaching</l>
+                  <pb n="32" facs="tcp:55681:20"/>
+                  <l>Infuſe into us faith?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>By therein teaching <note n="o" place="bottom">Rom. 10. 14, 15, 17.</note>,</l>
+                  <l>That for us who deſerve death <note n="p" place="bottom">Epheſ. 2. 3, 12.</note>, Chriſt hath dy'd <note n="r" place="bottom">Gal. 3. 13. Rom. 5. 6, 8.</note>,</l>
+                  <l>And thereby hath Gods anger pacified <note n="ſ" place="bottom">
+                        <hi>Epheſ.</hi> 2. 13, to the end. 2. <hi>Cor.</hi> 5. 18, 19.</note>:</l>
+                  <l>And that in him who doth believe <note n="t" place="bottom">Heb. 11. 6. Acts 16. 36.</note> may have</l>
+                  <l>Whatſo'ver things is needfull them to ſave <note n="u" place="bottom">Rom. 5 9, 10. 1 Cor. 30.</note>.</l>
+               </sp>
+            </div>
+            <div n="16" type="part">
+               <head>16. Concerning the Sacraments in generall.</head>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is a Sacrament, whereby you ſay,</l>
+                  <l>God doth unto our ſouls his Christ convey?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>A holy ſigne ordained by the Lord <note n="w" place="bottom">
+                        <hi>Ex.</hi> 12. chapter. <hi>Mat.</hi> 28. 19. &amp; 26. 26, 27, 28.</note>,</l>
+                  <l>Joyn'd to the gracious promiſe of his Word <note n="x" place="bottom">Rom. 15. 8. Mar. 16. 16</note>
+                  </l>
+                  <l>To ſignifie our Saviour Chriſt <note n="y" place="bottom">1 <hi>Cor.</hi> 11. 23, to the 27.</note>, withall</l>
+                  <l>His gifts <note n="z" place="bottom">Acts 2. 38, 39. 1 Cor. 10. 16.</note>, and to aſſure us that we ſhall</l>
+                  <l>Enjoy them <note n="a" place="bottom">Rom. 4. 11.</note>, if (as we thereby are bound)</l>
+                  <l>We doe by faith <note n="b" place="bottom">Rom. 4. 24</note>, and an obedi'nce ſound</l>
+                  <l>Continue his <note n="c" place="bottom">Rom. 6. 4. &amp; 4. 12. 1 Sam. 15. 22.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How many Sacraments</l>
+                  <l>Are there?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>l'th former of the Teſtaments</l>
+                  <pb n="33" facs="tcp:55681:20"/>
+                  <l>Many <note n="d" place="bottom">As not onely thoſe of Circumciſion and the Paſchall Lamb, which were in ſtead of Baptiſme and the Lords Supper; but alſo ſome before, and ſome after, ſome of the Covenant of Works, as thoſe of the Tree of Life, and the Tree of Knowledge of Good and Evil, <hi>Gen.</hi> 2. 9. and others after of the Covenant of Grace which were Sa<g ref="char:EOLhyphen"/>craments extraordinary, as that of Manna and the Water flowing out of the Rock, 1 <hi>Cor.</hi> 10. 3, 4. and of the pouring out the Blood of the Sacrifices, <hi>Hebr.</hi> 9. 17, 18. &amp; of the Land of <hi>Canaan,</hi> the Tabernacle, the Temple, the Arke of the Covenant, and many more that did relate to Chriſt.</note>, but in the Goſpel onely two:</l>
+                  <l>Baptiſme <note n="e" place="bottom">Mat. 28. 19.</note>, and that which commonly we doe</l>
+                  <l>Call the Lords Supper <note n="f" place="bottom">Mat. 26. 26, 27, 28.</note>: one of our iſition</l>
+                  <l>Into Chriſts body <note n="g" place="bottom">Gal. 3. 27.</note>, or our firſt admiſſion</l>
+                  <l>Into his Church <note n="h" place="bottom">1 Cor. 12. 13.</note>: the other of our growth</l>
+                  <l>In Jeſus Chriſt <note n="i" place="bottom">John 6. 44, 45, 46.</note>, and education both <note n="k" place="bottom">1 Cor. 1. 16.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the chiefeſt things I'de have you ſhow,</l>
+                  <l>Touching each Sacrament we ought to know?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>I will, theſe four which repreſent;</l>
+                  <l>The outward ſignes, what grace by them is meant,</l>
+                  <pb n="34" facs="tcp:55681:21"/>
+                  <l>What is the union of them both, and what</l>
+                  <l>The manner, we doe both communicate.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the ſignes?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The elements we ſee</l>
+                  <l>And rites <note n="l" place="bottom">Mat. 3. 11. Gen. 17. 11. 1 Pet. 3. 20, 21.</note> which elements we ſay to be</l>
+                  <l>Chang'd, not in nature or in qualitie,</l>
+                  <l>But in their uſe, 'cauſe now they ſignifie</l>
+                  <l>Celeſtiall things <note n="m" place="bottom">1 Cor. 10. 1, 2, 3.</note>, not through mans recitation</l>
+                  <l>Of any words, but Chriſts own ordination <note n="n" place="bottom">1 Cor. 11. 23, 24, 25.</note>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the ſignified things?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The main</l>
+                  <l>Is Chriſt <note n="o" place="bottom">1 Cor. 11. 26. &amp; 1. 1. 10, 16, 17.</note>, next him what bleſſings we obtain</l>
+                  <l>In him <note n="p" place="bottom">1 Cor. 1. 30.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>What kinde of union doe you call</l>
+                  <l>This of the ſignes, and things Celeſtiall?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>An union relative, which doth conſiſt</l>
+                  <l>In a reſpect betwixt the ſignes and Chriſt <note n="q" place="bottom">Luke 22. 19, 20.</note>,</l>
+                  <l>Whereby with them preſented to the ſenſe</l>
+                  <l>He's offer'd us to be by confidence</l>
+                  <l>Apply'd <note n="r" place="bottom">Rom. 4. 11, &amp; 24.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>On what dependeth this relation?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Gods promiſe <note n="ſ" place="bottom">Mar. 16. 16.</note>, and his Spirits operation <note n="t" place="bottom">1 Cor. 12. 13.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How are the Sacraments thing ſignify'd</l>
+                  <l>As ſignes received?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>In whom faith doth abide,</l>
+                  <l>They are partakers of the inward grace,</l>
+                  <l>And Chriſt himſelf (although in heavenly place)</l>
+                  <l>As truely (through the vertue of Gods Sprite)</l>
+                  <pb n="35" facs="tcp:55681:21"/>
+                  <l>As of the ſignes objected to the ſight <note n="u" place="bottom">Col. 2. 11, 12, 13. 1 Cor. 5. 7.</note>:</l>
+                  <l>But faithleſſe men, though they receive the ſigne,</l>
+                  <l>Doe not the ſignifi'd things divine <note n="w" place="bottom">compare <hi>Act.</hi> 8. 13. with 21. 1 <hi>Cor.</hi> 11 21.</note>.</l>
+               </sp>
+            </div>
+            <div n="17" type="part">
+               <head>17. Concerning Baptiſme:</head>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What's Baptiſme?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>'Tis of our admittance in</l>
+                  <l>To Chriſt his Church <note n="x" place="bottom">1 Cor. 12. 13.</note>; a Sacrament wherein</l>
+                  <l>By Waters waſhing <note n="y" place="bottom">Mat. 3. 11.</note>, in the Trinities,</l>
+                  <l>Fathers, Sons, Spirits, name <note n="z" place="bottom">Mat. 28. 19.</note>, God ſignifies,</l>
+                  <l>Seals, and applies to us, our cleanſing by</l>
+                  <l>The blood of Chriſt <note n="a" place="bottom">Rev. 1. 5.</note>, from all iniquity <note n="b" place="bottom">1 Ioh. 1. 7.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>What are the ſignes in Baptiſme's Sacrament?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Water is the externall element <note n="c" place="bottom">Mat. 3. 11.</note>:</l>
+                  <l>Dipping in water firſt, or ſprinkling, then</l>
+                  <l>From under it a coming forth agen;</l>
+                  <l>Are the ſubſtantiall rites <note n="d" place="bottom">This is implied <hi>Rom.</hi> 6. 4.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What's underſtood</l>
+                  <l>By theſe?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The ſprinkling of our Saviours blood,</l>
+                  <l>To waſh us from our ſinfull filthineſs <note n="e" place="bottom">Rev. 7. 14. Eph. 5. 26. Ezech. 36. 25. Heb. 10. 22.</note>,</l>
+                  <l>And imputation of his righteouſneſs <note n="f" place="bottom">Eph. 5. 27. Gal. 3. 27.</note>;</l>
+                  <l>A killing of the old man, through the force</l>
+                  <l>Of Chriſt his death and buriall, of his courſe <note n="g" place="bottom">Rom. 6. 3, 4, 6. Col. 2. 12.</note>,</l>
+                  <pb n="36" facs="tcp:55681:22"/>
+                  <l>A quickning of our ſpirits through the ſtrength</l>
+                  <l>Of Chriſt, his reſurrection <note n="h" place="bottom">Rom. 6. 5.</note>, and at length</l>
+                  <l>A raiſing of our bodies <note n="i" place="bottom">1 Cor. 15. 29.</note>, laſt of all,</l>
+                  <l>A ſacred obligation mutuall,</l>
+                  <l>Of God, and us baptized, whereby he</l>
+                  <l>Doth binde himſelf to be our God <note n="k" place="bottom">Act. 2. 38, 39.</note>, and we</l>
+                  <l>To ſerve him <note n="l" place="bottom">Mat 3. 8, 11. Rom. 6. 13. &amp; 7. 4.</note>, and to fight againſt his foes,</l>
+                  <l>Satan <note n="m" place="bottom">Iames 4. 7.</note>, the fleſh <note n="n" place="bottom">Gal. 5. 16, 17.</note> and world, that him oppoſe <note n="o" place="bottom">Iames 4. 4. 1 Iohn 2. 15.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>In Baptiſme what doth water figure moſt</l>
+                  <l>Chiefly?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Chriſts bleſſed blood and holy Ghoſt <note n="p" place="bottom">1 Iohn 5. 6. Iohn 3. 5. Epheſ. 5. 26.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Why doth the water and theſe things agree,</l>
+                  <l>In any manner of analogie?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Yes; for as water helps to generate <note n="q" place="bottom">Pſal. 104. 14.</note>
+                  </l>
+                  <l>That it may fructifie doth irrigate</l>
+                  <l>The earth <note n="r" place="bottom">Pſal. 104. 10, 13.</note>, doth waſh away the filthineſs</l>
+                  <l>Of bodies <note n="ſ" place="bottom">1 Sam. 25. 42. Iohn 13. 5.</note>, and doth quench our thirſtineſs <note n="t" place="bottom">Exod. 17. 3.</note>.</l>
+                  <l>In manner like, through the moſt wholſome merit</l>
+                  <l>Of Chriſt his blood <note n="u" place="bottom">Heb. 9. 12, 13, 14.</note>, and working of his Spirit <note n="w" place="bottom">1 Iohn 5. 6.</note>,</l>
+                  <l>We are regenerated <note n="x" place="bottom">Iohn 7. 5.</note>, waſhed white</l>
+                  <l>From ſin <note n="y" place="bottom">Epheſ. 5. 26. Pſal. 51. 7</note>, (who elſe are filthy in his ſight <note n="z" place="bottom">Pſal. 51. 2, 3.</note>)</l>
+                  <pb n="37" facs="tcp:55681:22"/>
+                  <l>And by the ſweeteſt ſhowers of graces drenched <note n="a" place="bottom">Pſal. 72. 6. Hoſ. 9. 3.</note>
+                  </l>
+                  <l>Bring forth much fruit <note n="b" place="bottom">Iohn 15. 2, 4, 5.</note> and have our ſouls thirſt<note n="c" place="bottom">Pſal. 63. 1. Iſa. 55. 1.</note> quenched<note n="d" place="bottom">Iohn 4. 14.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How is this ſacrament received?</l>
+               </sp>
+               <sp>
+                  <speaker>A</speaker>
+                  <l>All</l>
+                  <l>Who are baptiz'd in manner naturall</l>
+                  <l>Receive the ſignes <note n="e" place="bottom">Act. 2. 41. &amp; 8. 13.</note>; but what they ſignifie <note n="f" place="bottom">Gal. 3. 27. Epheſ. 5. 26.</note>,</l>
+                  <l>As by the Holy Ghoſt ſpiritually</l>
+                  <l>Given <note n="g" place="bottom">1 Cor. 12. 13. Tit. 3. 5.</note>) they onely who have faith indeed <note n="h" place="bottom">
+                        <hi>Mar.</hi> 16. 16. As thoſe that are of age.</note>,</l>
+                  <l>Or if not faith it ſelf, its heavenly ſeed <note n="i" place="bottom">As in Infants, for to them belongs the Kingdom of God, <hi>Mat.</hi> 19. 14. and they are within the Cove<g ref="char:EOLhyphen"/>nant of Grace, <hi>Act.</hi> 2. 39. &amp; 3. 25. and ſome are ſanctified in the womb, as <hi>Jeremy</hi> and S. <hi>John Baptist,</hi> and therefore have the ſeeds of faith.</note>.</l>
+               </sp>
+            </div>
+            <div n="18" type="part">
+               <head>18. Concerning the Lords Supper.</head>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What's the Lord's Supper?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>'Tis a Sacrament</l>
+                  <l>Of Confirmation <note n="k" place="bottom">1 Cor. 10. 16, 17.</note>, that doth repreſent <note n="l" place="bottom">1 Cor. 11. 26.</note>,</l>
+                  <l>Commemorate <note n="m" place="bottom">Luke 22. 19.</note>, obſignate and apply</l>
+                  <l>Unto the faithfull inſtrumentally <note n="n" place="bottom">1 Cor. 10. 16, 17.</note>,</l>
+                  <l>(By given and received bread and wine,</l>
+                  <pb n="38" facs="tcp:55681:23"/>
+                  <l>(According unto ordinance divine <note n="o" place="bottom">1 Cor. 11. 23, 24, 25.</note>)</l>
+                  <l>Chriſts body that was ſlain, blood that was ſhed,</l>
+                  <l>To ſave us from damnation merited <note n="p" place="bottom">Mat. 26. <gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>6, 27, 28. Rom. 5. 8, 9. 1 Theſ. 1. 10.</note>;</l>
+                  <l>By vertue of which body and which blood,</l>
+                  <l>(As of our ſouls onely ſufficient food)</l>
+                  <l>Nouriſht we are <note n="q" place="bottom">Iohn 6. 54, 55, 56.</note>, and grow in faith and love <note n="r" place="bottom">
+                        <hi>Iude</hi> ver. 20, 21. <hi>Gal</hi> 5. 6.</note>,</l>
+                  <l>Till to be perfect men in Chriſt we prove <note n="ſ" place="bottom">Col. 1. 28, 29. Eph. 4. 13.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the ſigns in the Lords Supper?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Bread</l>
+                  <l>And Wine, the elements adminiſtred <note n="t" place="bottom">1 Cor. 10. 16.</note>,</l>
+                  <l>The rites are when the Miniſter hath pray'd,</l>
+                  <l>And Chriſt his words of inſtitution ſaid.</l>
+                  <l>And breaks the bread, and doth deliver both</l>
+                  <l>The bread and wine to every one that doth</l>
+                  <l>Come to the Supper, who muſt take both; eat</l>
+                  <l>The bread &amp; drink the wine <note n="u" place="bottom">This whole anſwer is made good by Chriſts own inſtitution of this Sacrament, <hi>Mat. 26. 26, 27, 28. Mar. 14. 22, 23, 24. Luke</hi> 22. 19, 20.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What are the great</l>
+                  <l>Secrets imported by theſe ſigns?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The thing</l>
+                  <l>Whereof theſe are the ſigns exhibiting,</l>
+                  <l>Is Jeſus Chriſt his body and his blood <note n="w" place="bottom">1 Cor. 10. 16.</note>,</l>
+                  <l>With ev'ry grace of his and ſaving good <note n="x" place="bottom">1 Cor. 1. 30.</note>,</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What mean the Rites?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The breaking of the bread</l>
+                  <l>Doth ſhew how Chriſt was broken, tortured</l>
+                  <pb n="39" facs="tcp:55681:23"/>
+                  <l>Upon the Croſſe, and in his agony <note n="y" place="bottom">compare <hi>Mat.</hi> 26. 26. with <hi>Mat.</hi> 27. 38, 46. and with <hi>Iohn</hi> 19. 34.</note>:</l>
+                  <l>The giving of the ſignes, how graciouſly</l>
+                  <l>The Father hath beſtow'd on us his Son,</l>
+                  <l>With all the merits of his paſſion <note n="z" place="bottom">compare <hi>Luke</hi> 22. 22, 23. with 1 <hi>Cor.</hi> 10. 16. and with 1 <hi>Cor.</hi> 1. 30.</note>:</l>
+                  <l>Our taking, eating, drinking, ſhew how we</l>
+                  <l>By faith lay hold on Jeſus Chriſt, and he</l>
+                  <l>Becometh ours ſo truly and indeed,</l>
+                  <l>As doth the very meat whereon we feed <note n="a" place="bottom">compare <hi>Mat.</hi> 26. 26, 27. with 1 <hi>Cor.</hi> 12. 27. and with 1 <hi>Cor.</hi> 10. 16.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>But why was bread ordained as a ſigne</l>
+                  <l>Of Chriſt his body, of his blood, why wine?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>By reaſon of the likeneſſe 'twixt his blood</l>
+                  <l>And wine, his body and that kinde of food <note n="b" place="bottom">1 Cor. 10. 16, 17.</note>.</l>
+                  <l>Bread is the ſtay of our life naturall <note n="c" place="bottom">Mat. 6. 11.</note>,</l>
+                  <l>And ſo is Chriſt of our ſpirituall <note n="d" place="bottom">Iohn 6. 33, 35, 48, 51.</note>;</l>
+                  <l>Bread is our daily food <note n="e" place="bottom">Luke 11. 3.</note>, and daily need</l>
+                  <l>Our ſouls on Chriſt their heavenly bread to feed <note n="f" place="bottom">Iohn 6. 53, to 58.</note>;</l>
+                  <l>As many grains one loaf of bread doe make,</l>
+                  <l>And of that one loaf many may partake:</l>
+                  <l>So we, though many, in one bread ſubſiſt,</l>
+                  <l>And of that bread partake, ev'n Jeſus Chriſt <note n="g" place="bottom">1 Cor. 10. 16, 17.</note>.</l>
+                  <l>And as from preſſed grapes doe iſſue wine <note n="h" place="bottom">Deut. 32. 14.</note>,</l>
+                  <pb n="40" facs="tcp:55681:24"/>
+                  <l>Which comforteth the heart <note n="i" place="bottom">Iudg. 9. 13. Pſal. 104. 15.</note>, ſo from the vine,</l>
+                  <l>Chriſt <note n="k" place="bottom">John 15. 1, 5.</note>, by the waight of Gods wrath ſorely preſt <note n="l" place="bottom">Mat. 26. 38, 39. Mat. 27. 46.</note>,</l>
+                  <l>There iſſued his blood, the liquor bleſt <note n="m" place="bottom">Iohn 19. 30, 34.</note>,</l>
+                  <l>That doth as wine, warm, comfort, animate,</l>
+                  <l>Strengthen, revive, delight, exhilerate <note n="n" place="bottom">Iohn 6. 54, 56. Cant. 5. 1.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is the manner that we doe receive</l>
+                  <l>The Supper of the Lord?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>What we perceive</l>
+                  <l>Thereof by ſenſe, the ſame we orally <note n="*" place="bottom">or, <hi>with the mouth.</hi>
+                     </note>
+                  </l>
+                  <l>Receive <note n="o" place="bottom">1 Cor. 11. 26. Mat. 26. 26, 27.</note>, but what they ſhew ſpiritually,</l>
+                  <l>(For Chriſt his preſence is not corporall</l>
+                  <l>In the Lords Supper, but ſymbolicall <note n="p" place="bottom">1 Cor. 10. 16.</note>)</l>
+                  <l>That's onely by our hearts, not hands, imbrac'd,</l>
+                  <l>And is the object of our faith, not taſt <note n="q" place="bottom">
+                        <hi>Mat.</hi> 26. 26, 27. For in thoſe words of inſtitution, our Sa<g ref="char:EOLhyphen"/>viour infolds both the Naturall and Spiri<g ref="char:EOLhyphen"/>tuall eating and drinking, wherein conſiſts the true nature of a Sacrament: ſo that the bread and wine are the body and blood of Chriſt ſacramentally, or by a ſacramen<g ref="char:EOLhyphen"/>tall metonymie; and the bread and wine are received by the mouth of the body: and the body and blood of Chriſt by the mouth of the ſoul, <hi>viz:</hi> by a true and lively faith.</note>.</l>
+               </sp>
+               <sp>
+                  <pb n="41" facs="tcp:55681:24"/>
+                  <speaker>Q.</speaker>
+                  <l>Who then receives this Supper worthily?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>They who repent <note n="r" place="bottom">1 Cor. 11. 31.</note>, have faith <note n="ſ" place="bottom">2 Cor. 13. 5.</note> and charity <note n="t" place="bottom">Act. 2. 42, &amp; 4. 32, 34. 1 Cor. 11. 28, 29.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is the end wherefore we celebrate</l>
+                  <l>This Sacrament?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>'Tis to commemorate</l>
+                  <l>Chriſt, and to ſhew his death by thinking on</l>
+                  <l>Intentively, his bitter paſſion <note n="u" place="bottom">1 Cor. 11. 26.</note>;</l>
+                  <l>That ſo by thoſe good things we therein ſee <note n="w" place="bottom">1 Cor. 10. 16.</note>
+                  </l>
+                  <l>Our ſouls for ever comforted may be <note n="x" place="bottom">Cant. 5. 1. 2 Cor. 1. 3, 4, 5.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Now you have ſhew'd the means, whereby Chriſt is</l>
+                  <l>Offer'd and apprehended with all his</l>
+                  <l>Merits and benefits, it doth remain,</l>
+                  <l>You ſhew to whom thoſe graces doe pertain.</l>
+               </sp>
+            </div>
+            <div n="19" type="part">
+               <head>19. A diſcourſe concerning the Church.</head>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>They doe belong unto the Church <note n="y" place="bottom">Acts 2. 39, 41.</note>, and none</l>
+                  <l>Have intereſt in them, but ſhe alone <note n="z" place="bottom">Rom. 10. 14, 16. Eph. 2. 13. John 8. 24.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is the Church?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>An holy company</l>
+                  <l>Of men elected <note n="a" place="bottom">Col. 3. 12. Eph. 1. 4, 5. Rom. 8. 29.</note>, called powerfully <note n="b" place="bottom">1 Cor. 1. 2. Rom. 1. 7. 1 Tim. 1. 9. Rom. 8. 30.</note>,</l>
+                  <l>From out the world <note n="c" place="bottom">Iohn 17. 6, 9, 16.</note>, by preaching of the Word <note n="d" place="bottom">Rom. 10. 17. Epheſ. 1. 12, 13.</note>,</l>
+                  <pb n="42" facs="tcp:55681:25"/>
+                  <l>To be the ſole peculiar of the Lord <note n="e" place="bottom">1 Pet. 2. 9, 10. Tit. 2. 14.</note>:</l>
+                  <l>Built upon Chriſt, <note n="f" place="bottom">Mat. 21. 42. 1 Cor. 3. 9.</note> as on a ſure foundation <note n="g" place="bottom">1 Cor. 3 10, 11.</note>,</l>
+                  <l>That God in it may have his habitation <note n="h" place="bottom">Iohn 17. 23. Eph. 2. 21, 22.</note>,</l>
+                  <l>And there be ſerv'd in faith <note n="i" place="bottom">Heb. 11. 6.</note>, b<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> prayer expreſt <note n="k" place="bottom">Iames 1. 6.</note>,</l>
+                  <l>And holineſs both inward <note n="l" place="bottom">Epheſ. 1. 4. Col. 1. 22. Epheſ. 4. 23, 24.</note> and profeſt <note n="m" place="bottom">Epheſ. 4, 1, 2, 3. 2 Cor. 7. 1.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How manifold is this Church?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>One <note n="n" place="bottom">1 Cor. 12. 13. where Chriſt in regard of the ſpi<g ref="char:EOLhyphen"/>rituall union and conjunction is taken for the Church.</note>: though we</l>
+                  <l>That are the members, very many be <note n="o" place="bottom">1 Cor. 12. 15. &amp; 10. 17.</note>
+                     <g ref="char:punc">▪</g>
+                  </l>
+                  <l>For as there is one God <note n="p" place="bottom">Eph. 4. 6.</note>, faith <note n="q" place="bottom">ver. 5.</note>, hope of bliſſe <note n="r" place="bottom">ver. 4.</note>,</l>
+                  <l>Head of the Church <note n="ſ" place="bottom">Eph. 1. 22. &amp; 4. 13, 5. Col. 1. 18.</note>; ſo conſequently, is</l>
+                  <l>The Church one <note n="t" place="bottom">Eph. 4. 4. &amp; 2. 14, 16.</note>, that's the body myſticall <note n="u" place="bottom">1 Cor. 10. 17.</note>,</l>
+                  <l>Of that head, Jeſus Chriſt the Lord of all <note n="w" place="bottom">Epheſ. 4. 5. Act. 10. 36. Epheſ. 1. 22.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>If that the Church be one, in what ſenſe doe</l>
+                  <l>We ſay, ſhe may be ſeen, and may not too?</l>
+               </sp>
+            </div>
+            <div n="20" type="part">
+               <pb n="43" facs="tcp:55681:25"/>
+               <head>20. Concerning the Church viſible and inviſible.</head>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>The whole Church Catholick <note n="x" place="bottom">Iſa. 2. 2, 3. Act. 10. 34, 35.</note>, Chriſts body <note n="y" place="bottom">Eph. 1. 23. Col. 1. 18.</note>, houſe <note n="z" place="bottom">1 Tim. 3. 15.</note>,</l>
+                  <l>The Templ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> of the Lord <note n="a" place="bottom">Epheſ. 1. 21.</note>, his City <note n="b" place="bottom">Heb. 12. 22. Revel. 21. 10. Epheſ. 2. 19.</note>, Spouſe <note n="c" place="bottom">Cant. 4. 9, to 12.</note>,</l>
+                  <l>Cannot be ſeen, becauſe it doth contain</l>
+                  <l>The number of all them that doe pertain</l>
+                  <l>To Chriſt, as well the bleſſed ſaints on high,</l>
+                  <l>Who cannot be beheld with mortall eye <note n="d" place="bottom">Heb. 12. 22.</note>;</l>
+                  <l>As faithfull living <note n="e" place="bottom">Iohn 10. 16. &amp; 11. 52.</note>: though particular</l>
+                  <l>Churches or Congregations, which are</l>
+                  <l>But ſome part of that Church, apparent be,</l>
+                  <l>Becauſe we doe the outward faſhion ſee,</l>
+                  <l>Of their religion <note n="f" place="bottom">1 Cor. 1. 2. &amp; 2 Cor. 1. 1. Gal. 2. Rom 16. 5. Col. 4. 15.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>The whole Church, why</l>
+                  <l>Doe you call Catholick?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>To ſignifie</l>
+                  <l>She is not ty'de to certain times, or men,</l>
+                  <l>Nor places, (as before Chriſts coming, when</l>
+                  <l>God was in <hi>Jury</hi> onely worſhipped <note n="g" place="bottom">Pſal. 76. 1, 2. Iſa. 2. 3.</note>)</l>
+                  <l>But is throughout the whole world ſcattered <note n="h" place="bottom">Acts 10. 33, 34, 35. 1 Theſ. 1. 8.</note>:</l>
+                  <l>And is ſtill to indure <note n="i" place="bottom">Luke 1. 33.</note>, and hath among</l>
+                  <l>All kindes of men, ſome that to her belong <note n="k" place="bottom">Iſa. 60, the whole chap.</note>.</l>
+               </sp>
+               <sp>
+                  <pb n="44" facs="tcp:55681:26"/>
+                  <speaker>Q.</speaker>
+                  <l>Who are theſe?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Not who onely doe profeſſe</l>
+                  <l>Faith, and have but the Form of Godlineſſe <note n="l" place="bottom">2 Tim. 3. 8.</note>:</l>
+                  <l>For albeit ſuch kinde of men have place</l>
+                  <l>In the Church viſible <note n="m" place="bottom">Act<g ref="char:punc">▪</g> 8. 13.</note>, yet to the grace</l>
+                  <l>Of being members <note n="*" place="bottom">I mean true members of the Church.</note> of the ſame, attain</l>
+                  <l>They do not <note n="n" place="bottom">1 Iohn 2. 19. Iohn 15. 6. 2 Tim. 4. 10. Act. 8. 21. Mat. 22. 14.</note>; but thoſe in whom grace doth raign <note n="o" place="bottom">Tit. 2. 11, 12. 1 Pet. 1. 5.</note>:</l>
+                  <l>For Chriſt his Church is holy <note n="p" place="bottom">Eph. 1. 4, 5.</note>, 'cauſe his blood</l>
+                  <l>Hath cleanſed her from ſin <note n="q" place="bottom">Eph. 1. 7.</note>, to doe what's good <note n="r" place="bottom">as ver. 3, 4.</note>.</l>
+               </sp>
+            </div>
+            <div n="21" type="part">
+               <head>21. Who is head of the Church.</head>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Who of the Churches body is the head?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Chriſt Jeſus <note n="ſ" place="bottom">Col. 1. 18. Epheſ. 1. 12.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>Who beſides in Chriſt his ſtead?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>None other, for 'tis monſtrouſly unfit</l>
+                  <l>One body ſhould to many heads be knit <note n="t" place="bottom">Epheſ. 5. 23, 30. this Text proves it as unfit as for a woman to have many husbands.</note>:</l>
+                  <l>And what need there any head leſſe principall,</l>
+                  <l>To guide and rule the Church, ſith there dwells all</l>
+                  <l>Fulneſſe in Chriſt <note n="u" place="bottom">Coloſ. 2. 3, 9. Iſa 9. 6, 7.</note>: and as the head doth ſenſe</l>
+                  <l>Unto the body, ſo Chriſt influence</l>
+                  <l>Spirituall, unto the Church conveyes <note n="w" place="bottom">Col. 2. 10, 11, 12.</note>,</l>
+                  <pb n="45" facs="tcp:55681:26"/>
+                  <l>And every where is with her, and alwaies <note n="x" place="bottom">
+                        <hi>Matth.</hi> chap. 28. ver. 20. <hi>Iohn</hi> 14. 16, 18.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>But may there not be ſome to overſee</l>
+                  <l>Churches particular? Is't ſo that he,</l>
+                  <l>Becauſe he doth the whole Church regulate;</l>
+                  <l>Excludeth governours ſubordinate</l>
+                  <l>Of Churches viſible?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>No each ſuch, muſt</l>
+                  <l>Have one, or many, who not as they luſt <note n="y" place="bottom">1 Pet. 5. 3.</note>
+                  </l>
+                  <l>But as Gods Word alloweth them, muſt guide,</l>
+                  <l>Govern, defend it ſafely, and provide</l>
+                  <l>That God be purely ſerv'd, that they be curb'd,</l>
+                  <l>By whom the Churches peace may be diſturb'd; <note n="*" place="bottom">And this hath reſpect as well to the Civil Power as to Eccleſiaſti<g ref="char:EOLhyphen"/>call Authority, and to both in their ſeve<g ref="char:EOLhyphen"/>rall ſtations, and it belongs to the Civil Power; firſt for the defence of the Church, as <hi>Judges</hi> 2. 16. and ſecondly, becauſe with<g ref="char:EOLhyphen"/>out that, true Religion cannot long ſtand, as <hi>Judg. 17. 6. 1 Chro. 14. 3. 1 Kings</hi> 10. 9. and therefore when God at any time doth favourably look upon a nation, he doth ſtill raiſe up ſuch guiders, governours and defenders of them, and providers for his pure ſervice, and ſuch as may curb the ene<g ref="char:EOLhyphen"/>mies of his Church; ſuch were <hi>Moſes, Joſua, David, Salomon, Jehoſhaphat, Joſias, Hezekias, Conſtantine</hi> the great, with many other Chriſtian Princes.</note>
+                  </l>
+                  <pb n="46" facs="tcp:55681:27"/>
+                  <l>That all things be in decent order done <note n="z" place="bottom">1 Cor. 14. 40. 1 Cor. 11. 34. Eph. 4. 11, 1<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</note>,</l>
+                  <l>And who offends may have correction <note n="a" place="bottom">1 <hi>Tim.</hi> 1. 20. Now to ſee that all things be done in the Church, in ſuch de<g ref="char:EOLhyphen"/>cent order, and that thoſe may be puniſh<g ref="char:EOLhyphen"/>ed, that by obſtinate reſiſtance, or ſcanda<g ref="char:EOLhyphen"/>lous living, ſhall tranſgreſſe againſt it; this ſolely belongs to Eccleſiaſticall Authoritie, as by theſe enſuing places may be proved. 1 <hi>Pet. 5 2, 3. 1 Tim. 5. 7. 17, 19, 20 Act. 20. 17. Heb. 13. 7. 17. Mat. 16. 19. John 20. 23. 1 Cor. 5. 2 Theſ.</hi> 3. 6. and 12, 14, 15. <hi>Mat. 18. 15, 16, 17, 18. Tit.</hi> 3. 10.</note>.</l>
+               </sp>
+            </div>
+            <div n="22" type="part">
+               <head>22. The deſcription of a true Church.</head>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>But tell me, by what markes infallible,</l>
+                  <l>We may diſcerne a true Church viſible</l>
+                  <l>From a corrupt?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>In that Church where Gods Word</l>
+                  <l>Is purely taught <note n="b" place="bottom">
+                        <hi>John</hi> 8. 31, 32. and 10. 27. <hi>Act. 2. 42. 2 Ep. John.</hi> 9.</note>, the Supper of the Lord,</l>
+                  <l>And Baptiſme, miniſter'd in manner due,</l>
+                  <l>After Chriſts Ordinances, that Church is true <note n="c" place="bottom">Math. 28. 19. Act. 2. 38. Luke 22. 19, 20. Act. 2. 42.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>Is every man when he thoſe marks hath found</l>
+                  <l>In any Congregation, there bound</l>
+                  <pb n="47" facs="tcp:55681:27" rendition="simple:additions"/>
+                  <l>To joyne himſelfe unto it, and profeſſe</l>
+                  <l>Himſelfe a Member of it?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Surely yes,</l>
+                  <l>To ſome ſuch Church or other, every man</l>
+                  <l>Muſt joyne himſelfe, ſo far forth as he can <note n="d" place="bottom">
+                        <hi>Act. 2. 47. Pſal.</hi> 133. the whole.</note>:</l>
+                  <l>For every ſuch Church is a School, where God</l>
+                  <l>The Maſter is <note n="e" place="bottom">Iſa. 54. 13. Mat. 23. 8.</note>, afflictions his rod <note n="f" place="bottom">Pſal. 119. 71.</note>;</l>
+                  <l>The Teſtaments the Books which there are read,</l>
+                  <l>The Law, and Goſpell, there delivered <note n="g" place="bottom">Gal. 4. 24.</note>,</l>
+                  <l>With Preachers expoſition explain'd <note n="h" place="bottom">Rom. 10. 14, 15.</note>,</l>
+                  <l>Leſſons that muſt be learned, and retain'd</l>
+                  <l>In minde and heart <note n="i" place="bottom">Pſal. 119. 1, 2, 7, 10, 11.</note>: now in the Schools muſt he,</l>
+                  <l>As a young Scholer educated be <note n="k" place="bottom">Pſal. 119. 9. Deut. 11. 18, 19.</note>,</l>
+                  <l>That doth aſpire unto a place on high,</l>
+                  <l>In the moſt glorious Univerſity <note n="l" place="bottom">Eph. 2. 6. Mat. 25. 34.</note>.</l>
+               </sp>
+            </div>
+            <div n="23" type="part">
+               <head>23. Concerning the joyes of Heaven.</head>
+               <sp>
+                  <speaker>Q</speaker>
+                  <l>What <g ref="char:V">Ʋ</g>niverſity?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Even that ſame where The Saints are Fellowes, who were Schollers here: The Angells Fellowes, in the joynt fruition Of joyes, ariſing from Gods bliſſefull Viſion <note n="m" place="bottom">1 John 1. 3, 4. Heb. 12. 22, 23, 24.</note>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What joyes?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>eye hath ſeen, Nor heard by mortall eares have ever been;</l>
+                  <pb n="48" facs="tcp:55681:28"/>
+                  <l>Neither, what great joyes they are, it enter can</l>
+                  <l>Into the Sinfull heart of Carnall man <note n="n" place="bottom">1 Cor. 2. 9.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>What is this Viſion whence you ſay ariſe</l>
+                  <l>Theſe joyes?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>It is to know God in ſuch wiſe</l>
+                  <l>As we our ſelves are knowne; to have that grace</l>
+                  <l>As to behold him cleerly face to face <note n="o" place="bottom">1 Cor. 9. 10, 12.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>And why call you it bliſſefull?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>Cauſe hereon</l>
+                  <l>Depend there doth our glorification <note n="p" place="bottom">Pſal. 16. 11. Phil. 3. 21. Heb. 12. 22, 23.</note>.</l>
+                  <l>For ſeeing him <note n="r" place="bottom">
+                        <hi>Pſ.</hi> 73. 25. and 142. 5. and 33. 12.</note>, him we ſhall have, and have</l>
+                  <l>In him, all good things, that our Souls can crave <note n="ſ" place="bottom">1 Cor. 15. 28. Rom. 8. 32.</note>;</l>
+                  <l>And we ſhall be transformed into his</l>
+                  <l>Image, ſo fa<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>re forth, as our nature is</l>
+                  <l>Made capable thereof <note n="t" place="bottom">2 Cor. 3. 18. 1 John 3. 2.</note>, and ſhine as light,</l>
+                  <l>Our Souls and Bodies ſhall in glorie bright <note n="u" place="bottom">Compare 1 <hi>Joh.</hi> 1. 5. and <hi>John</hi> 1. 4, 5, 9. with <hi>Joh.</hi> 6. 56. and 1 <hi>John</hi> 3. 24.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How long?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>For ever <note n="w" place="bottom">1 Theſ. 4. 17. Pſal. 90. 2.</note>: for our bliſſe (as he</l>
+                  <l>That is its object <hi>x</hi>) ſhall eternall be <note n="y" place="bottom">1 Pet. 5. 10. Luk. 18. 30.</note>.</l>
+               </sp>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>But to be happy in ſuch ſort, you ſay</l>
+                  <l>Belongs not unto all men?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>True: for they</l>
+                  <l>Who are not Souldiers in the Church, that here</l>
+                  <l>Is Militant, may not as Victors weare</l>
+                  <pb n="49" facs="tcp:55681:28"/>
+                  <l>Crownes, in the Church triumphant <note n="z" place="bottom">2 Tim. 4. 7, 8. Jam. 1. 12. Revel. 2. 20. 1 Pet. 5. 4.</note>; not behold</l>
+                  <l>Chriſts glory, that are not of Chriſts Fold <note n="a" place="bottom">Compare <hi>John 10. 16. ver.</hi> with 26, 27, 28. <hi>ver.</hi>
+                     </note>.</l>
+               </sp>
+            </div>
+            <div n="24" type="part">
+               <head>24. Concerning the day of Judgement.</head>
+               <sp>
+                  <speaker>Q.</speaker>
+                  <l>How ſhall it then be with the wicked?</l>
+               </sp>
+               <sp>
+                  <speaker>A.</speaker>
+                  <l>All</l>
+                  <l>Shall ſuffer puniſhment perpetuall <note n="b" place="bottom">Jud. 14, 15. 2 Theſ. 1. 7, 8, 9.</note>,</l>
+                  <l>According to their workes <note n="c" place="bottom">Rom. 2. 5, 6. Luk. 12. 47, 48.</note>, for Chriſt ſhall come</l>
+                  <l>To judge the world <note n="d" place="bottom">2 Cor. 5, 10. Act. 10. 42. Act. 17. 31. 2 Tim. 4. 1 Joh. 5. 22.</note>, and having placed ſome</l>
+                  <l>On his Right hand <note n="e" place="bottom">Mat. 25. 33, 34.</note>, I meane the Sons of light <note n="f" place="bottom">Iohn 12. 36.</note>;</l>
+                  <l>Thus, he will them moſt graciouſly invite:</l>
+                  <l>Come bleſſed of my Father, and inherit</l>
+                  <l>The glorious Kingdome <note n="g" place="bottom">Mat. 25. 34.</note>, purchas'd by my merit <note n="h" place="bottom">1 Pet. 1. 18, 19. Eph. 1. 7.</note>,</l>
+                  <l>Prepared from eternity, for you <note n="i" place="bottom">Mat. 25. 34.</note>
+                  </l>
+                  <l>My conſtant followers and ſervants true <note n="k" place="bottom">Mat. 19. 28, 29.</note>.</l>
+                  <l>But to the wicked that ſhall trembling ſtand <note n="l" place="bottom">Deut. 28. 65. Mat. 24. 26.</note>,</l>
+                  <l>With guilty Conſciences <note n="m" place="bottom">Io. 8. 9. Ro. 2. 15.</note>, at his left hand;</l>
+                  <l>In terrifying manner, he will ſay,</l>
+                  <pb n="50" facs="tcp:55681:29"/>
+                  <l>Ye curſed wofull wretches, get away</l>
+                  <l>Into eternall fire, prepar'd for you,</l>
+                  <l>As for the Devill, and his damned crue <note n="n" place="bottom">Mat. 25. 41.</note>;</l>
+                  <l>And thoſe ſhall ſtill tormented be in Hell,</l>
+                  <l>When they for ever ſhall in Heaven dwell <note n="o" place="bottom">Dan. 12. 2. Iohn 5. 29. Mat. 25. 46.</note>.</l>
+               </sp>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="poem">
+            <pb facs="tcp:55681:29"/>
+            <lg>
+               <l>WHat good is taught us here, Lord do thou make</l>
+               <l>Us perfectly to know, for Chriſt his ſake;</l>
+               <l>And let that knowledge, ſo informe our minde,</l>
+               <l>That through it, in our hearts we be inclin'd,</l>
+               <l>To doe that good ſincerely though we may</l>
+               <l>Offend in many things through weakneſſe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſay</l>
+               <l>O gratious God, the Word, and it will then</l>
+               <l>Be done, what we pray for, <hi>Amen, Amen.</hi>
+               </l>
+            </lg>
+            <closer>Laus Trin uni Deo.</closer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:55681:30"/>
+            <pb facs="tcp:55681:30"/>
+            <head>A <hi>Table</hi> of the Heads contained in this Epitome.</head>
+            <list>
+               <item>I. <hi>THE condition of a True Chriſtian.</hi> page 1</item>
+               <item>II. <hi>Concerning the Fall of many.</hi> 2</item>
+               <item>III. <hi>The ten Commandements.</hi> 4</item>
+               <item>IV. <hi>No man is able to keep the Law.</hi> 8</item>
+               <item>V. <hi>The knowledge of the Law leads us to imbrace the Goſpel.</hi> 10</item>
+               <item>VI. <hi>What must be known concerning Chriſt.</hi> 
+                  <add>12</add>
+               </item>
+               <item>VII. <hi>Christ's threefold office.</hi> 
+                  <add>14</add>
+               </item>
+               <item>VIII. <hi>How Chriſt is made ours.</hi> 
+                  <add>17</add>
+               </item>
+               <item>IX. <hi>The means of our unity to Chriſt.</hi> 
+                  <add>18</add>
+               </item>
+               <item>X. <hi>The Belief.</hi> 
+                  <add>19</add>
+               </item>
+               <item>XI. <hi>How we are juſtified by faith in Chriſt.</hi> 
+                  <add>22</add>
+               </item>
+               <pb facs="tcp:55681:31"/>
+               <item>XII. <hi>Concerning Regeneration.</hi> 23</item>
+               <item>XIII. <hi>Concerning Prayer.</hi> 25</item>
+               <item>XIV. <hi>The Lords Prayer briefly expounded.</hi> 27</item>
+               <item>XV. <hi>Concerning Gods Word and Sacraments.</hi> 31</item>
+               <item>XVI. <hi>Concerning the Sacraments in generall.</hi> 32</item>
+               <item>XVII. <hi>Concerning Baptiſme.</hi> 35</item>
+               <item>XVIII. <hi>Concerning the Lords Supper.</hi> 37</item>
+               <item>XIX. <hi>A diſcourſe concerning the Church.</hi> 41</item>
+               <item>XX. <hi>Concerning the Church viſible and inviſible.</hi> 4<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </item>
+               <item>XXI. <hi>Who is Head of the Church.</hi> 44</item>
+               <item>XXII. <hi>
+                     <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>eſcription of a true Church.</hi> 4<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </item>
+               <item>XXIII. <hi>Co<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>cerning the joyes of Heaven.</hi> 47</item>
+               <item>XXIV. <hi>Con<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>rning the Day of Judgment.</hi> 49</item>
+            </list>
+            <trailer>The End.</trailer>
+            <pb facs="tcp:55681:31"/>
+         </div>
+      </back>
+   </text>
+</TEI>
